@@ -1,0 +1,13 @@
+---
+get_bdh:
+  test1:
+    tickers: ['USGG10YR Index', 'ES1 Index', 'CO1 Comdty']
+    field: null
+    start_date: '2022-01-01'
+    end_date: '2022-12-31'
+  test2:
+    tickers: ['TY1 Comdty', 'USDSGD Curncy']
+    field: null
+    start_date: '2022-01-01'
+    end_date: '2022-12-31'
+...
