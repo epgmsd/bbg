@@ -10,16 +10,22 @@ ECHO Code will fetch from main branch but push to dataupdate branch after updati
 ECHO.
 
 ECHO Step 1: Force sync from main branch at remote
-git fetch origin main:main
+git fetch origin main
 git reset --hard origin/main
 git merge origin/main
+ECHO.
+ECHO.
 
 ECHO Step 2: Run main.r 
 REM "C:\Program Files\R\R-3.6.3\bin\Rscript.exe" "%~dp0main.r"
+ECHO.
+ECHO.
 
 ECHO Step 3: Push to dataupdate branch after updating
 git add .
 git commit -m "new data update"
 git push origin main:dataupdate
+ECHO.
+ECHO.
 
 PAUSE
