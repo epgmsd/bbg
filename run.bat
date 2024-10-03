@@ -17,7 +17,7 @@ ECHO.
 ECHO.
 
 ECHO Step 2: Run main.r 
-REM "C:\Program Files\R\R-4.4.1\bin\Rscript.exe" "%~dp0main.r"
+"C:\Program Files\R\R-4.4.1\bin\Rscript.exe" "%~dp0main.r"
 ECHO.
 ECHO.
 
