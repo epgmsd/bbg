@@ -10,4 +10,9 @@ get_bdh:
     field: null
     start_date: '2022-01-01'
     end_date: '2022-12-31'
+  USDSGD:
+    tickers: ['USDSGD Curncy', 'USDCNH Curncy']
+    field: null
+    start_date: '2022-01-01'
+    end_date: '2022-12-31'
 ...
