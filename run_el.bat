@@ -24,7 +24,7 @@ ECHO.
 ECHO Step 3: Push to dataupdate branch after updating
 git add .
 git commit -m "new data update"
-git push origin main:dataupdate
+git push -f origin main:dataupdate
 ECHO.
 ECHO.
 
