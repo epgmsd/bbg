@@ -134,95 +134,10 @@ get_bdh <- function(tickers, field = NULL, start_date, end_date = NULL, bbg_opti
     
   }
   
-  return(xts)
-}
-
-
-#' @title locate
-#' @description Internal function to automatically detect path of calling script. Works with Rscript from command line, sourcing from another R script, running in Rstudio on the fly, as well as rendering into Rmarkdown with knitr.
-
-locate <- function()
-{
-  ## Get the file needle if R script has been run from command line
-  cmdArgs <- commandArgs(trailingOnly = FALSE)
-  needle  <- "--file="
-  match   <- grep(needle, cmdArgs)
-  
-  ## Attempt to get envir that's 1 frame earlier
-  frame1 <- tryCatch(sys.frames()[[1]], error = function(e) return(NULL))
-  
-  ## Attempt to get Rstudio api paths
-  active_doc_path    <- tryCatch(rstudioapi::getActiveDocumentContext()$path, error = function(e) return(NULL))
-  source_editor_path <- tryCatch(rstudioapi::getSourceEditorContext()$path,   error = function(e) return(NULL))
-  
-  ## Attempt to get Knitr path
-  knitr_path <- tryCatch(knitr::current_input(dir = TRUE), error = function(e) return(NULL))
-  
-  ## If Rscript via command line
-  if (length(match) > 0) {
-    
-    return(sub(needle, "", cmdArgs[match]))
-    
-    ## If sourced via Rstudio
-  } else if ("fileName" %in% ls(frame1)) {
-    
-    return(frame1$fileName)
-    
-    ## If sourced via R console
-  } else if (!is.null(frame1$ofile)) {
-    
-    return(frame1$ofile)
-    
-    ## If Rstudio run selection (http://stackoverflow.com/a/35842176/2292993)
-  } else if (!is.null(active_doc_path) && active_doc_path != '') {
-    
-    return(active_doc_path)
-    
-    ## If run from Rstudio console
-  } else if (!is.null(source_editor_path) && source_editor_path != '') {
-    
-    return(source_editor_path)
-    
-    ## If run from knitr / Rmarkdown
-  } else if (!is.null(knitr_path) && knitr_path != '') {
-    
-    return(knitr_path)
-    
-    ## If nothing works, return NULL
-  } else {
-    
-    return(NULL)
-    
-  }
-}
-
-
-#' @title parse_request
-#' @description 
-
-
-loc  <- locate()
-root <- dirname(loc)
-
-requests <- yaml::read_yaml(paste0(root, "/requests.yml"))
-
-for (i in 1:length(requests)) {
-  
-  ## Get name
-  n <- names(requests)[[i]]
-  
-  ## Get bbg
-  r <- requests[[i]]
-  x <- get_bbg(tickers=r$tickers, field=r$field, start_date=r$start_date, end_date=r$end_date, 
-               bbg_options=r$bbg_options, bbg_overrides=r$bbg_overrides, include_non_trading_days=r$include_non_trading_days)
-  
-  ## Record as flat file
-  dt <- data.table::as.data.table(x)
+  dt <- data.table::as.data.table(xts)
   data.table::setnames(dt, "index", "Date", skip_absent=TRUE)
   
-  ## Write to file
-  data.table::fwrite(dt, file=paste0(root, "/data/", n, ".csv"))
+  return(dt)
 }
-
 
 
