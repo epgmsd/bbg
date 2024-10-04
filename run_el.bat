@@ -9,6 +9,8 @@ ECHO Running batch process to update bbg folder on github.com/mf3a
 ECHO Code will fetch from main branch but push to dataupdate branch after updating
 ECHO.
 
+pushd %~dp0
+
 ECHO Step 1: Force sync from main branch at remote
 git fetch origin main
 git reset --hard origin/main
@@ -27,5 +29,7 @@ git commit -m "new data update"
 git push -f origin main:dataupdate
 ECHO.
 ECHO.
+
+popd
 
 PAUSE
