@@ -15,4 +15,9 @@ get_bdh:
     field: null
     start_date: '2022-01-01'
     end_date: '2022-12-31'
+
+get_bdh_bars:
+  test2:
+    tickers: ['TY1 Comdty', 'USDSGD Curncy']
+    start_time: '2024-09-27 00:00:00'
 ...

@@ -141,3 +141,31 @@ get_bdh <- function(tickers, field = NULL, start_date, end_date = NULL, bbg_opti
 }
 
 
+#' @title get_bdh_bars
+#' @description Loads intraday data from Bloomberg given list of tickers.
+#' @param tickers A character vector of the ticker names
+#' @param start_time must be POSITxt
+#' @param end_time must be POSITxt
+#' @export
+
+get_bdh_bars <- function(tickers, start_time = Sys.time() - 60 * 60 * 6, end_time = Sys.time())
+{
+  # Ensure dates are dates
+  tryCatch(start_time <- as.POSIXct(start_time), error = function(e) stop("get_bdh_bars: start_time cannot be coerced into POSIXct object."))
+  tryCatch(end_time   <- as.POSIXct(end_time), error = function(e) stop("get_bdh_bars: end_time cannot be coerced into POSIXct object."))
+  
+  # Connect to Bloomberg terminal
+  Rblpapi::blpConnect()
+  
+  # Returns a list of data.frame for each ticker.
+  x <- lapply(tickers, function(tx) {
+    
+    dt <- Rblpapi::getBars(tx, startTime=start_time, endTime=end_time)
+    dt <- data.table::as.data.table(dt)
+    dt <- dt[, ticker := tx]
+    
+  }) %>% data.table::rbindlist()
+  
+  return(x)
+}
+
