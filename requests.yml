@@ -1,21 +1,25 @@
 ---
 get_bdh:
-  test1:
-    tickers: ['USGG10YR Index', 'ES1 Index', 'CO1 Comdty']
-    field: null
-    start_date: '2022-01-01'
-    end_date: '2022-12-31'
-  test2:
-    tickers: ['TY1 Comdty', 'USDSGD Curncy']
-    field: null
-    start_date: '2022-01-01'
-    end_date: '2022-12-31'
-  USDSGD:
-    tickers: ['USDSGD Curncy', 'USDCNH Curncy']
-    field: null
-    start_date: '2022-01-01'
-    end_date: '2022-12-31'
-
+  FSI_raw_data_1:
+    tickers: ['USDSGD Curncy','EURUSD Curncy','USDJPY Curncy','EURJPY Curncy','EURGBP Curncy', 
+              'BCOM Index','STI Index','USGG10YR Index','MASB2Y Index','MASB5Y Index','MASB10Y Index','SDBS10 Curncy','SGD3M Curncy','SDO3M Curncy',
+              'CTTWBRSG Index','CTTWBSGD Index','USDSGDV3M Curncy','USDSGDV6M Curncy','USDSGDV1Y Curncy','EURUSDV3M Curncy','EURUSDV6M Curncy','EURUSDV1Y Curncy',
+              'USDJPYV3M Curncy','USDJPYV6M Curncy','USDJPYV1Y Curncy','SDSOAA Curncy','SDSOAC Curncy','SIBF1M Index','SIBF3M Index','EUR003M Index',
+              'USOSFRA Curncy','USOSFRC Curncy','US0001M Index','US0003M Index','SIBCSORA Index','FEDL01 Index','SOFRRATE Index','US00O/N Index',
+              'EUBS1 Curncy','JYBS1 Curncy','XAUUSD Curncy','GDBR10 Index','SDSOA5 Curncy','SDSW5 Curncy','SDSOA10 Curncy','SDSW10 Curncy',
+              'VIX Index','VIX3M Index','V2X Index','MOVE Index','DXY Curncy', 
+              'DBS SP Equity','OCBC SP Equity','UOB SP Equity']
+    fields: 'PX_LAST'
+    start_date: '1995-01-01'
+  FSI_raw_data_2:
+    tickers: ['DBS SP Equity','OCBC SP Equity','UOB SP Equity']
+    fields: 'PX_TO_BOOK_RATIO'
+    start_date: '1995-01-01'
+  FSI_raw_data_3:
+    tickers: ['DBS SP Equity','OCBC SP Equity','UOB SP Equity']
+    fields: 'CUR_MKT_CAP'
+    start_date: '1995-01-01'
+    
 get_bdh_bars:
   test2:
     tickers: ['TY1 Comdty', 'USDSGD Curncy']
