@@ -25,6 +25,30 @@ get_bdh:
               'SORACA3M Index','SIMSM2 Index','SIMSM3A Index','USGG5YR Index','USGG3M Index','SNEER Index','USBMMY3M Index']
     fields: 'PX_LAST'
     start_date: '1990-01-01'
+  SGD_risk_premium:
+    tickers: ['SDOON BGN Curncy','SDOTN BGN Curncy','SDOSN BGN Curncy','SDO1W BGN Curncy','SDO2W BGN Curncy','SDO3W BGN Curncy',
+              'SDO1M BGN Curncy','SDO2M BGN Curncy','SDO3M BGN Curncy','SDO4M BGN Curncy','SDO5M BGN Curncy','SDO6M BGN Curncy',
+              'SDO9M BGN Curncy','SDO12M BGN Curncy','SDO18M BGN Curncy','SDO2Y BGN Curncy','SDO3Y BGN Curncy','SDO4Y BGN Curncy',
+              'SDO5Y BGN Curncy','SDO7Y BGN Curncy','SDO10Y BGN Curncy', 
+              'SIBCSORA Index','SDSOAA BGN Curncy','SDSOAB BGN Curncy','SDSOAC BGN Curncy','SDSOAF BGN Curncy','SDSOAI BGN Curncy',
+              'SDSOA1 BGN Curncy','SDSOA1F BGN Curncy','SDSOA2 BGN Curncy','SDSOA3 BGN Curncy','SDSOA4 BGN Curncy','SDSOA5 BGN Curncy',
+              'SDSOA7 BGN Curncy','SDSOA10 BGN Curncy','SDSOA12 BGN Curncy','SDSOA15 BGN Curncy','SDSOA20 BGN Curncy','SDSOA30 BGN Curncy',
+              'SOFRRATE Index','USOSFR1Z BGN Curncy','USOSFR2Z BGN Curncy','USOSFR3Z BGN Curncy','USOSFRA BGN Curncy','USOSFRB BGN Curncy',
+              'USOSFRC BGN Curncy','USOSFRD BGN Curncy','USOSFRE BGN Curncy','USOSFRF BGN Curncy','USOSFRG BGN Curncy','USOSFRH BGN Curncy',
+              'USOSFRI BGN Curncy','USOSFRJ BGN Curncy','USOSFRK BGN Curncy','USOSFR1 BGN Curncy','USOSFR1F BGN Curncy','USOSFR2 BGN Curncy',
+              'USOSFR3 BGN Curncy','USOSFR4 BGN Curncy','USOSFR5 BGN Curncy','USOSFR6 BGN Curncy','USOSFR7 BGN Curncy','USOSFR8 BGN Curncy',
+              'USOSFR9 BGN Curncy','USOSFR10 BGN Curncy','USOSFR12 BGN Curncy','USOSFR15 BGN Curncy','USOSFR20 BGN Curncy','USOSFR25 BGN Curncy',
+              'USOSFR30 BGN Curncy','USOSFR40 BGN Curncy','USOSFR50 BGN Curncy', 
+              'SIBF1M Index','SIBF3M Index','SIBF6M Index','SIBF12M Index','SDSW2 BLC Curncy','SDSW3 BLC Curncy','SDSW4 BLC Curncy',
+              'SDSW5 BLC Curncy','SDSW7 BLC Curncy','SDSW10 BLC Curncy', 
+              'US0001M Index','US0003M Index','US0006M Index','US0012M Index','USSWAP2 CMPN Curncy','USSWAP3 CMPN Curncy','USSWAP5 CMPN Curncy',
+              'USSWAP7 CMPN Curncy','USSWAP10 CMPN Curncy','USSWAP12 CMPN Curncy','USSWAP15 CMPN Curncy','USSWAP20 CMPN Curncy','USSWAP25 CMPN Curncy','USSWAP30 CMPN Curncy', 
+              'FEDL01 Index', 'USDSGD Curncy', 'SDSF61Y BGN Curncy','SDSF62Y BGN Curncy','SDSF63Y BGN Curncy','SDSF64Y BGN Curncy',
+              'SDSF65Y BGN Curncy','SDSF67Y BGN Curncy','SDSF610Y BGN Curncy', 
+              'SGDSSS2 BLC Curncy','SGDSSS3 BLC Curncy','SGDSSS4 BLC Curncy','SGDSSS5 BLC Curncy','SGDSSS7 BLC Curncy','SGDSSS10 BLC Curncy',
+              'SDBS1 BGN Curncy','SDBS2 BGN Curncy','SDBS3 BGN Curncy','SDBS4 BGN Curncy','SDBS5 BGN Curncy']
+    fields: 'PX_LAST'
+    start_date: '2000-01-01'
     
 get_bdh_bars:
   test2:
