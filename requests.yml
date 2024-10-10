@@ -47,7 +47,12 @@ get_bdh:
               'SDSF65Y BGN Curncy','SDSF67Y BGN Curncy','SDSF610Y BGN Curncy', 
               'SGDSSS2 BLC Curncy','SGDSSS3 BLC Curncy','SGDSSS4 BLC Curncy','SGDSSS5 BLC Curncy','SGDSSS7 BLC Curncy','SGDSSS10 BLC Curncy',
               'SDBS1 BGN Curncy','SDBS2 BGN Curncy','SDBS3 BGN Curncy','SDBS4 BGN Curncy','SDBS5 BGN Curncy', 
-              'DXY Index']
+              'DXY Index',
+              'USDSGDV1M Curncy', 'USDSGDV3M Curncy', 'USDSGDV6M Curncy', 'USDSGDV1Y Curncy', 
+              'USDSGD25R1M Curncy', 'USDSGD25R3M Curncy', 'USDSGD25R6M Curncy', 'USDSGD25R1Y Curncy',
+              'USDSG105R1M Curncy', 'USDSGD10R3M Curncy', 'USDSGD10R6M Curncy', 'USDSGD10R1Y Curncy',
+              'USDSGD25B1M Curncy', 'USDSGD25B3M Curncy', 'USDSGD25B6M Curncy', 'USDSGD25B1Y Curncy',
+              'USDSG105B1M Curncy', 'USDSGD10B3M Curncy', 'USDSGD10B6M Curncy', 'USDSGD10B1Y Curncy']
     fields: 'PX_LAST'
     start_date: '2000-01-01'
     
