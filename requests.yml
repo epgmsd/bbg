@@ -60,9 +60,13 @@ get_bdh:
               'GDP CQOQ Index', 'SGDPQOQ Index']
     fields: 'PX_LAST'
     start_date: '1990-01-01'
+  uslongend_ERrequest_20241024_daily:
+    tickers: ['USGG10YR Index', 'USGGBE10 Index', 'DXY Index', 'USDJPY Curncy', 'MOVE Index', 'CO1 Comdty', 'DJT Equity', 'SFRU4 Comdty', 'SFRZ4 Comdty', 'SFRH5 Comdty']
+    fields: 'PX_LAST'
+    start_date: '2010-01-01'
       
 get_bdh_bars:
-  test2:
-    tickers: ['TY1 Comdty', 'USDSGD Curncy']
-    start_time: '2024-09-27 00:00:00'
+  uslongend_ERrequest_20241024_intraday:
+    tickers: ['USGG10YR Index', 'USGGBE10 Index', 'DXY Index', 'USDJPY Curncy', 'MOVE Index', 'CO1 Comdty', 'DJT Equity', 'SFRU4 Comdty', 'SFRZ4 Comdty', 'SFRH5 Comdty']
+    start_time: '2024-09-01 00:00:00'
 ...
