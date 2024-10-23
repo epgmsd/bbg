@@ -61,7 +61,7 @@ get_bdh:
     fields: 'PX_LAST'
     start_date: '1990-01-01'
   uslongend_ERrequest_20241024_daily:
-    tickers: ['USGG10YR Index', 'USGGBE10 Index', 'DXY Index', 'USDJPY Curncy', 'MOVE Index', 'CO1 Comdty', 'DJT Equity', 'SFRU4 Comdty', 'SFRZ4 Comdty', 'SFRH5 Comdty']
+    tickers: ['USGG10YR Index', 'USGGBE10 Index', 'DXY Index', 'USDJPY Curncy', 'MOVE Index', 'CO1 Comdty', 'DJT Equity', 'SFRU4 Comdty', 'SFRZ4 Comdty', 'SFRH5 Comdty', 'CESIUSD Index']
     fields: 'PX_LAST'
     start_date: '2010-01-01'
       
