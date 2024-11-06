@@ -65,7 +65,7 @@ get_bdh:
     fields: 'PX_LAST'
     start_date: '2010-01-01'
   trump2_pxlast_daily:
-    tickers: ['SFRU4 Comdty', 'SFRZ4 Comdty', 'SFRH5 Comdty', 'SFRM5 Comdty', 'SFRU5 Comdty', 'SFRZ4 Comdty', 
+    tickers: ['SFRU4 Comdty', 'SFRZ4 Comdty', 'SFRH5 Comdty', 'SFRM5 Comdty', 'SFRU5 Comdty', 'SFRZ5 Comdty', 
               'MOVE Index', 'USSN011 BVOL Curncy', 
               'USGG2YR Index', 'USGG5YR Index', 'USGG10YR Index', 'USGG30YR Index', 
               'USDJPY Curncy', 'EURUSD Curncy', 'USDCNH Curncy', 
@@ -101,18 +101,5 @@ get_bdh_bars:
               'ES1 Index', 'RTY Index', 'VIX Index', 
               'XBTUSD Curncy', 'XAUUSD Curncy', 
               'CO1 Comdty']
-    fields: 'PX_LAST'
-    start_date: '2024-01-01'
-  trump2_impliedvol_intraday:
-    tickers: ['ES1 Index', 'RTY Index', 'CO1 Comdty']
-    fields: 'RK004'
-    start_time: '2024-11-01 00:00:00'
-  trump2_iv_25dcall_intraday:
-    tickers: ['ES1 Index', 'RTY Index', 'CO1 Comdty']
-    fields: 'RK901'
-    start_time: '2024-11-01 00:00:00'
-  trump2_iv_25dput_intraday:
-    tickers: ['ES1 Index', 'RTY Index', 'CO1 Comdty']
-    fields: 'RK903'
     start_time: '2024-11-01 00:00:00'
 ...
