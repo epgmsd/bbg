@@ -64,9 +64,55 @@ get_bdh:
     tickers: ['USGG10YR Index', 'USGGBE10 Index', 'DXY Index', 'USDJPY Curncy', 'MOVE Index', 'CO1 Comdty', 'DJT Equity', 'SFRU4 Comdty', 'SFRZ4 Comdty', 'SFRH5 Comdty', 'CESIUSD Index']
     fields: 'PX_LAST'
     start_date: '2010-01-01'
+  trump2_pxlast_daily:
+    tickers: ['SFRU4 Comdty', 'SFRZ4 Comdty', 'SFRH5 Comdty', 'SFRM5 Comdty', 'SFRU5 Comdty', 'SFRZ4 Comdty', 
+              'MOVE Index', 'USSN011 BVOL Curncy', 
+              'USGG2YR Index', 'USGG5YR Index', 'USGG10YR Index', 'USGG30YR Index', 
+              'USDJPY Curncy', 'EURUSD Curncy', 'USDCNH Curncy', 
+              'USDJPYV3M Curncy', 'USDJPY25R3M Curncy', 'USDJPY25B3M Curncy', 'EURUSDV3M Curncy', ' EURUSD25R3M Curncy', 'EURUSD25B3M Curncy','USDCNHV3M Curncy', 'USDCNH25R3M Curncy', 'USDCNH25B3M Curncy',    
+              'ES1 Index', 'RTY Index', 'VIX Index', 
+              'XBTUSD Curncy', 'XAUUSD Curncy', 
+              'CO1 Comdty']
+    fields: 'PX_LAST'
+    start_date: '2024-01-01'
+  trump2_impliedvol_daily:
+    tickers: ['ES1 Index', 'RTY Index', 'CO1 Comdty']
+    fields: 'RK004'
+    start_date: '2024-01-01'
+  trump2_iv_25dcall_daily:
+    tickers: ['ES1 Index', 'RTY Index', 'CO1 Comdty']
+    fields: 'RK901'
+    start_date: '2024-01-01'
+  trump2_iv_25dput_daily:
+    tickers: ['ES1 Index', 'RTY Index', 'CO1 Comdty']
+    fields: 'RK903'
+    start_date: '2024-01-01'
       
 get_bdh_bars:
   uslongend_ERrequest_20241024_intraday:
     tickers: ['USGG10YR Index', 'USGGBE10 Index', 'DXY Index', 'USDJPY Curncy', 'MOVE Index', 'CO1 Comdty', 'DJT Equity', 'SFRU4 Comdty', 'SFRZ4 Comdty', 'SFRH5 Comdty']
     start_time: '2024-09-01 00:00:00'
+  trump2_pxlast_intraday:
+    tickers: ['SFRU4 Comdty', 'SFRZ4 Comdty', 'SFRH5 Comdty', 'SFRM5 Comdty', 'SFRU5 Comdty', 'SFRZ4 Comdty', 
+              'MOVE Index', 'USSN011 BVOL Curncy', 
+              'USGG2YR Index', 'USGG5YR Index', 'USGG10YR Index', 'USGG30YR Index', 
+              'USDJPY Curncy', 'EURUSD Curncy', 'USDCNH Curncy', 
+              'USDJPYV3M Curncy', 'USDJPY25R3M Curncy', 'USDJPY25B3M Curncy', 'EURUSDV3M Curncy', ' EURUSD25R3M Curncy', 'EURUSD25B3M Curncy','USDCNHV3M Curncy', 'USDCNH25R3M Curncy', 'USDCNH25B3M Curncy',    
+              'ES1 Index', 'RTY Index', 'VIX Index', 
+              'XBTUSD Curncy', 'XAUUSD Curncy', 
+              'CO1 Comdty']
+    fields: 'PX_LAST'
+    start_date: '2024-01-01'
+  trump2_impliedvol_intraday:
+    tickers: ['ES1 Index', 'RTY Index', 'CO1 Comdty']
+    fields: 'RK004'
+    start_time: '2024-11-01 00:00:00'
+  trump2_iv_25dcall_intraday:
+    tickers: ['ES1 Index', 'RTY Index', 'CO1 Comdty']
+    fields: 'RK901'
+    start_time: '2024-11-01 00:00:00'
+  trump2_iv_25dput_intraday:
+    tickers: ['ES1 Index', 'RTY Index', 'CO1 Comdty']
+    fields: 'RK903'
+    start_time: '2024-11-01 00:00:00'
 ...
