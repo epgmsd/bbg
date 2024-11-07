@@ -72,7 +72,7 @@ get_bdh:
               'USDJPYV3M Curncy', 'USDJPY25R3M Curncy', 'USDJPY25B3M Curncy', 'EURUSDV3M Curncy', ' EURUSD25R3M Curncy', 'EURUSD25B3M Curncy','USDCNHV3M Curncy', 'USDCNH25R3M Curncy', 'USDCNH25B3M Curncy',    
               'USDSGDV3M Curncy', 'USDIDRV3M Curncy', 'USDMYRV3M Curncy', 'USDTHBV3M Curncy',  
               'ES1 Index', 'RTY Index', 'VIX Index', 'UX1 Index',
-              'NK1 Index', 'HS1 Index', 'KOSPI2 Index', 'HSCEI Index', 'VG1 Index',
+              'NK1 Index', 'HI1 Index', 'HC1 Index', 'VG1 Index',
               'XBTUSD Curncy', 'XAUUSD Curncy', 
               'CO1 Comdty', 'CO4 Comdty']
     fields: 'PX_LAST'
@@ -102,7 +102,7 @@ get_bdh_bars:
               'USDJPYV3M Curncy', 'USDJPY25R3M Curncy', 'USDJPY25B3M Curncy', 'EURUSDV3M Curncy', ' EURUSD25R3M Curncy', 'EURUSD25B3M Curncy','USDCNHV3M Curncy', 'USDCNH25R3M Curncy', 'USDCNH25B3M Curncy',    
               'USDSGDV3M Curncy', 'USDIDRV3M Curncy', 'USDMYRV3M Curncy', 'USDTHBV3M Curncy',  
               'ES1 Index', 'RTY Index', 'VIX Index', 'UX1 Index',
-              'NK1 Index', 'HS1 Index', 'KOSPI2 Index', 'HSCEI Index', 'VG1 Index',
+              'NK1 Index', 'HI1 Index', 'HC1 Index', 'VG1 Index',
               'XBTUSD Curncy', 'XAUUSD Curncy', 
               'CO1 Comdty', 'CO4 Comdty']
     start_time: '2024-11-01 00:00:00'
