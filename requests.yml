@@ -1,6 +1,6 @@
 ---
 get_bdh:
-  FSI_raw_data_1:
+  FSI_raw_data_pxlast:
     tickers: ['USDSGD Curncy','EURUSD Curncy','USDJPY Curncy','EURJPY Curncy','EURGBP Curncy', 
               'BCOM Index','STI Index','USGG10YR Index','MASB2Y Index','MASB5Y Index','MASB10Y Index','SDBS10 Curncy','SGD3M Curncy','SDO3M Curncy',
               'CTTWBRSG Index','CTTWBSGD Index','USDSGDV3M Curncy','USDSGDV6M Curncy','USDSGDV1Y Curncy','EURUSDV3M Curncy','EURUSDV6M Curncy','EURUSDV1Y Curncy',
@@ -11,11 +11,11 @@ get_bdh:
               'DBS SP Equity','OCBC SP Equity','UOB SP Equity']
     fields: 'PX_LAST'
     start_date: '1995-01-01'
-  FSI_raw_data_2:
+  FSI_raw_data_pbratio:
     tickers: ['DBS SP Equity','OCBC SP Equity','UOB SP Equity']
     fields: 'PX_TO_BOOK_RATIO'
     start_date: '1995-01-01'
-  FSI_raw_data_3:
+  FSI_raw_data_mktcap:
     tickers: ['DBS SP Equity','OCBC SP Equity','UOB SP Equity']
     fields: 'CUR_MKT_CAP'
     start_date: '1995-01-01'
