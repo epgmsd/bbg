@@ -9,25 +9,25 @@ get_bdh:
               'EUBS1 Curncy','JYBS1 Curncy','XAUUSD Curncy','GDBR10 Index','SDSOA5 Curncy','SDSW5 Curncy','SDSOA10 Curncy','SDSW10 Curncy',
               'VIX Index','VIX3M Index','V2X Index','MOVE Index','DXY Curncy', 
               'DBS SP Equity','OCBC SP Equity','UOB SP Equity']
-    fields: 'PX_LAST'
+    field: 'PX_LAST'
     start_date: '1995-01-01'
   FSI_raw_data_pbratio:
     tickers: ['DBS SP Equity','OCBC SP Equity','UOB SP Equity']
-    fields: 'PX_TO_BOOK_RATIO'
+    field: 'PX_TO_BOOK_RATIO'
     start_date: '1995-01-01'
   FSI_raw_data_mktcap:
     tickers: ['DBS SP Equity','OCBC SP Equity','UOB SP Equity']
-    fields: 'CUR_MKT_CAP'
+    field: 'CUR_MKT_CAP'
     start_date: '1995-01-01'
   FCI_raw_data:
     tickers: ['SGD3M BGN Curncy','SDO3M BGN Curncy','USDSGDV3M BGN Curncy','MASB10Y BGN Index','MASB2Y BGN Index','USGG10YR BGN Index',
               'STI Index','BCOM Index','XAU BGN Curncy','COA Comdty','CLA Comdty','CL1 Comdty','DXY Curncy','VIX Index','SPX Index','FEDL01 Index',
               'SORACA3M Index','SIMSM2 Index','SIMSM3A Index','USGG5YR Index','USGG3M Index','SNEER Index','USBMMY3M Index']
-    fields: 'PX_LAST'
+    field: 'PX_LAST'
     start_date: '1990-01-01'
   FCI_implvol:
     tickers: ['STI Index']
-    fields: 'VOLATILITY_30D'
+    field: 'VOLATILITY_30D'
     start_date: '1990-01-01'
   SGD_risk_premium:
     tickers: ['SDOON BGN Curncy','SDOTN BGN Curncy','SDOSN BGN Curncy','SDO1W BGN Curncy','SDO2W BGN Curncy','SDO3W BGN Curncy',
@@ -57,16 +57,16 @@ get_bdh:
               'USDSG105R1M Curncy', 'USDSGD10R3M Curncy', 'USDSGD10R6M Curncy', 'USDSGD10R1Y Curncy',
               'USDSGD25B1M Curncy', 'USDSGD25B3M Curncy', 'USDSGD25B6M Curncy', 'USDSGD25B1Y Curncy',
               'USDSG105B1M Curncy', 'USDSGD10B3M Curncy', 'USDSGD10B6M Curncy', 'USDSGD10B1Y Curncy']
-    fields: 'PX_LAST'
+    field: 'PX_LAST'
     start_date: '2000-01-01'
   macro_data:
     tickers: ['CPI YOY Index', 'CPI XYOY Index', 'CPI CHNG Index', 'PCE CMOM Index', 'PCE CYOY Index', 'SMASCORE Index', 'SICPIYOY Index', 'SICPIMOM Index', 
               'GDP CQOQ Index', 'SGDPQOQ Index']
-    fields: 'PX_LAST'
+    field: 'PX_LAST'
     start_date: '1990-01-01'
   uslongend_ERrequest_20241024_daily:
     tickers: ['USGG10YR Index', 'USGGBE10 Index', 'DXY Index', 'USDJPY Curncy', 'MOVE Index', 'CO1 Comdty', 'DJT Equity', 'SFRU4 Comdty', 'SFRZ4 Comdty', 'SFRH5 Comdty', 'CESIUSD Index']
-    fields: 'PX_LAST'
+    field: 'PX_LAST'
     start_date: '2010-01-01'
   trump2_pxlast_daily:
     tickers: ['SFRU4 Comdty', 'SFRZ4 Comdty', 'SFRH5 Comdty', 'SFRM5 Comdty', 'SFRU5 Comdty', 'SFRZ5 Comdty', 
@@ -79,19 +79,19 @@ get_bdh:
               'NK1 Index', 'HI1 Index', 'HC1 Index', 'VG1 Index',
               'XBTUSD Curncy', 'XAUUSD Curncy', 
               'CO1 Comdty', 'CO4 Comdty']
-    fields: 'PX_LAST'
+    field: 'PX_LAST'
     start_date: '2024-01-01'
   trump2_impliedvol_daily:
     tickers: ['ES1 Index', 'RTY Index', 'CO1 Comdty']
-    fields: 'RK004'
+    field: 'RK004'
     start_date: '2024-01-01'
   trump2_iv_25dcall_daily:
     tickers: ['ES1 Index', 'RTY Index', 'CO1 Comdty']
-    fields: 'RK901'
+    field: 'RK901'
     start_date: '2024-01-01'
   trump2_iv_25dput_daily:
     tickers: ['ES1 Index', 'RTY Index', 'CO1 Comdty']
-    fields: 'RK903'
+    field: 'RK903'
     start_date: '2024-01-01'
       
 get_bdh_bars:
