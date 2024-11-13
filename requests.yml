@@ -25,6 +25,10 @@ get_bdh:
               'SORACA3M Index','SIMSM2 Index','SIMSM3A Index','USGG5YR Index','USGG3M Index','SNEER Index','USBMMY3M Index']
     fields: 'PX_LAST'
     start_date: '1990-01-01'
+  FCI_implvol:
+    tickers: ['STI Index']
+    fields: 'VOLATILITY_30D'
+    start_date: '1990-01-01'
   SGD_risk_premium:
     tickers: ['SDOON BGN Curncy','SDOTN BGN Curncy','SDOSN BGN Curncy','SDO1W BGN Curncy','SDO2W BGN Curncy','SDO3W BGN Curncy',
               'SDO1M BGN Curncy','SDO2M BGN Curncy','SDO3M BGN Curncy','SDO4M BGN Curncy','SDO5M BGN Curncy','SDO6M BGN Curncy',
