@@ -93,6 +93,10 @@ get_bdh:
     tickers: ['ES1 Index', 'RTY Index', 'CO1 Comdty']
     field: 'RK903'
     start_date: '2024-01-01'
+  sgs_bbg_i107:
+    tickers: ['I10703M Index', 'I10706M Index', 'I10701Y Index', 'I10702Y Index', 'I10703Y Index', 'I10704Y Index', 'I10705Y Index', 'I10706Y Index', 'I10707Y Index', 'I10708Y Index', 'I10709Y Index', 'I10710Y Index']
+    field: 'PX_LAST'
+    start_date: '1994-12-30'
       
 get_bdh_bars:
   uslongend_ERrequest_20241024_intraday:
