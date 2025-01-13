@@ -13,6 +13,8 @@
 
 get_bdh <- function(tickers, field = NULL, start_date, end_date = NULL, bbg_options = NULL, bbg_overrides = NULL, include_non_trading_days=FALSE, ...)
 {
+  tickers = unique(tickers)
+
   # Ensure field is singular
   if (length(field) > 1) stop("get_bdh: does not support more than one field.")
   
