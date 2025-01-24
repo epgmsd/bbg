@@ -150,7 +150,7 @@ get_bdh <- function(tickers, field = NULL, start_date, end_date = NULL, bbg_opti
 #' @param end_time must be POSITxt
 #' @export
 
-get_bdh_bars <- function(tickers, start_time = Sys.time() - 60 * 60 * 6, end_time = Sys.time())
+get_bdh_bars <- function(tickers, start_time = Sys.time() - 60 * 60 * 6, end_time = Sys.time(), ...)
 {
   # Ensure dates are dates
   tryCatch(start_time <- as.POSIXct(start_time), error = function(e) stop("get_bdh_bars: start_time cannot be coerced into POSIXct object."))
@@ -162,7 +162,7 @@ get_bdh_bars <- function(tickers, start_time = Sys.time() - 60 * 60 * 6, end_tim
   # Returns a list of data.frame for each ticker.
   x <- lapply(tickers, function(tx) {
     
-    dt <- Rblpapi::getBars(tx, startTime=start_time, endTime=end_time)
+    dt <- Rblpapi::getBars(tx, startTime=start_time, endTime=, ...)
     dt <- data.table::as.data.table(dt)
     dt <- dt[, ticker := tx]
     
