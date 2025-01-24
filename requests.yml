@@ -129,9 +129,14 @@ get_bdh:
     start_date: '2010-01-01'    
 
 get_bdh_bars:
-  sneer_intraday_monitor:
+  sneer_intraday_monitor_60:
     tickers: ['USDSGD Curncy', 'SDOI1M Curncy', 'SGDI1M Curncy', 'SDDR1T Curncy', 'SDSOAA Curncy', 'USRG1T Curncy', 'USOSFRA Curncy']
     start_time: '2024-12-01 00:00:00'
+    barInterval: 60
+  sneer_intraday_monitor_5:
+    tickers: ['USDSGD Curncy', 'SDOI1M Curncy', 'SGDI1M Curncy', 'SDDR1T Curncy', 'SDSOAA Curncy', 'USRG1T Curncy', 'USOSFRA Curncy']
+    start_time: '2025-01-01 00:00:00'
+    barInterval: 5
   
   #uslongend_ERrequest_20241024_intraday:
   #  tickers: ['USGG10YR Index', 'USGGBE10 Index', 'DXY Index', 'USDJPY Curncy', 'MOVE Index', 'CO1 Comdty', 'DJT Equity', 'SFRU4 Comdty', 'SFRZ4 Comdty', 'SFRH5 Comdty']
