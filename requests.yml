@@ -127,6 +127,16 @@ get_bdh:
               'ADBS10 BGN Curncy', 'GACGB10YR Index', 'BPBS10 BGN Curncy', 'BPSWS10 BGN Curncy', 'GUKG10 Index']
     field: 'PX_LAST'
     start_date: '2010-01-01'    
+  asean_monitor:
+    tickers: ['IDRUSD Curncy','MYRUSD Curncy','PHPUSD Curncy','THBUSD Curncy','SGDUSD Curncy','VNDUSD Curncy','KHRUSD Curncy','LAKUSD Curncy','FXJPEMCS Index','USDIDR Curncy','USDMYR Curncy','USDPHP Curncy',
+              'USDTHB Curncy','USDSGD Curncy','USDVND Curncy','USDKHR Curncy','USDLAK Curncy','JASXNET$ Index','MATPENET Index','THIVNET$ Index','VUPHBNET Index','VNDXEMTD Index','IDGBFNBN Index','TBTVNET$ Index',
+              'JASXMTDN Index','MATPEMTD Index','THIVMTDN Index','VUPHMTDN Index','IDGBFMTD Index','MAFDMTDD Index','TBTVMTDD Index','PHDBMTDD Index','GTIDR10Y Govt','GTMYR10Y Govt','GTTHB10Y Govt','CTPHP10Y Govt',
+              'GGVB10YR VBMA Index','GT10 Govt','INDON CDS USD SR 5Y D14 Corp','MALAYS CDS USD SR 5Y D14 Corp','THAI CDS USD SR 5Y D14 Corp','PHILIP CDS USD SR 5Y D14 Corp','VIETNM CDS USD SR 5Y D14 BEST Corp',
+              'ITRX EXJP IG CDSI S42 5Y Corp','MXID Index','MXMY Index','MXTH Index','MXPH Index','MXEF Index','MXWO Index','JCI Index','FBMKLCI Index','SET Index','PCOMP Index','VNINDEX Index','CSX Index',
+              'LSXC Index','.IDRF2 F Index','..MYRYM Index','.THBF3 F Index','.PHPF4 F index','FEDL01 Index','SORACA3M Index','MAOPRATE Index','IDBIRATE Index','IDBIRRPO Index','BTRR1DAY Index','PPCBON Index']
+    field: 'PX_LAST'
+    start_date: '2010-01-01'             
+
 
 get_bdh_bars:
   sneer_intraday_monitor_60:
