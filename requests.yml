@@ -141,7 +141,7 @@ get_bdh:
               'USOSFRF Curncy','USOSFR1 Curncy','USGG2YR Index','USGG5YR Index','USGG10YR Index','USGG30YR Index','GDBR10 Index','GJGB10 Index','GCNY10YR Index',
               'DXY Index','EURUSD Curncy','USDJPY Cunrcy']
     field: 'PX_LAST'
-    start_date: '2010-01-01'     
+    start_date: '2000-01-01'     
 
 
 #get_bdh_bars:
