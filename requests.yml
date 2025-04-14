@@ -64,35 +64,35 @@ get_bdh:
               'GDP CQOQ Index', 'SGDPQOQ Index']
     field: 'PX_LAST'
     start_date: '1990-01-01'
-  uslongend_ERrequest_20241024_daily:
-    tickers: ['USGG10YR Index', 'USGGBE10 Index', 'DXY Index', 'USDJPY Curncy', 'MOVE Index', 'CO1 Comdty', 'DJT Equity', 'SFRU4 Comdty', 'SFRZ4 Comdty', 'SFRH5 Comdty', 'CESIUSD Index']
-    field: 'PX_LAST'
-    start_date: '2010-01-01'
-  trump2_pxlast_daily:
-    tickers: ['SFRU4 Comdty', 'SFRZ4 Comdty', 'SFRH5 Comdty', 'SFRM5 Comdty', 'SFRU5 Comdty', 'SFRZ5 Comdty', 
-              'MOVE Index', 'USSN011 BVOL Curncy', 
-              'USGG2YR Index', 'USGG5YR Index', 'USGG10YR Index', 'USGG30YR Index', 
-              'USDJPY Curncy', 'EURUSD Curncy', 'USDCNH Curncy', 'USDSGD Curncy', 'USDIDR Curncy', 'USDMYR Curncy', 'USDTHB Curncy', 'SGDIDR Curncy', 'SGDTHB Curncy', 'SGDMYR Curncy',
-              'USDJPYV3M Curncy', 'USDJPY25R3M Curncy', 'USDJPY25B3M Curncy', 'EURUSDV3M Curncy', ' EURUSD25R3M Curncy', 'EURUSD25B3M Curncy','USDCNHV3M Curncy', 'USDCNH25R3M Curncy', 'USDCNH25B3M Curncy',    
-              'USDSGDV3M Curncy', 'USDIDRV3M Curncy', 'USDMYRV3M Curncy', 'USDTHBV3M Curncy',  
-              'ES1 Index', 'RTY Index', 'VIX Index', 'UX1 Index',
-              'NK1 Index', 'HI1 Index', 'HC1 Index', 'VG1 Index',
-              'XBTUSD Curncy', 'XAUUSD Curncy', 
-              'CO1 Comdty', 'CO4 Comdty']
-    field: 'PX_LAST'
-    start_date: '2024-01-01'
-  trump2_impliedvol_daily:
-    tickers: ['ES1 Index', 'RTY Index', 'CO1 Comdty']
-    field: 'RK004'
-    start_date: '2024-01-01'
-  trump2_iv_25dcall_daily:
-    tickers: ['ES1 Index', 'RTY Index', 'CO1 Comdty']
-    field: 'RK901'
-    start_date: '2024-01-01'
-  trump2_iv_25dput_daily:
-    tickers: ['ES1 Index', 'RTY Index', 'CO1 Comdty']
-    field: 'RK903'
-    start_date: '2024-01-01'
+  #uslongend_ERrequest_20241024_daily:
+  #  tickers: ['USGG10YR Index', 'USGGBE10 Index', 'DXY Index', 'USDJPY Curncy', 'MOVE Index', 'CO1 Comdty', 'DJT Equity', 'SFRU4 Comdty', 'SFRZ4 Comdty', 'SFRH5 Comdty', 'CESIUSD Index']
+  #  field: 'PX_LAST'
+  #  start_date: '2010-01-01'
+  #trump2_pxlast_daily:
+  #  tickers: ['SFRU4 Comdty', 'SFRZ4 Comdty', 'SFRH5 Comdty', 'SFRM5 Comdty', 'SFRU5 Comdty', 'SFRZ5 Comdty', 
+  #            'MOVE Index', 'USSN011 BVOL Curncy', 
+  #            'USGG2YR Index', 'USGG5YR Index', 'USGG10YR Index', 'USGG30YR Index', 
+  #            'USDJPY Curncy', 'EURUSD Curncy', 'USDCNH Curncy', 'USDSGD Curncy', 'USDIDR Curncy', 'USDMYR Curncy', 'USDTHB Curncy', 'SGDIDR Curncy', 'SGDTHB Curncy', 'SGDMYR Curncy',
+  #            'USDJPYV3M Curncy', 'USDJPY25R3M Curncy', 'USDJPY25B3M Curncy', 'EURUSDV3M Curncy', ' EURUSD25R3M Curncy', 'EURUSD25B3M Curncy','USDCNHV3M Curncy', 'USDCNH25R3M Curncy', 'USDCNH25B3M Curncy',    
+  #            'USDSGDV3M Curncy', 'USDIDRV3M Curncy', 'USDMYRV3M Curncy', 'USDTHBV3M Curncy',  
+  #            'ES1 Index', 'RTY Index', 'VIX Index', 'UX1 Index',
+  #            'NK1 Index', 'HI1 Index', 'HC1 Index', 'VG1 Index',
+  #            'XBTUSD Curncy', 'XAUUSD Curncy', 
+  #            'CO1 Comdty', 'CO4 Comdty']
+  #  field: 'PX_LAST'
+  #  start_date: '2024-01-01'
+  #trump2_impliedvol_daily:
+  #  tickers: ['ES1 Index', 'RTY Index', 'CO1 Comdty']
+  #  field: 'RK004'
+  #  start_date: '2024-01-01'
+  #trump2_iv_25dcall_daily:
+  #  tickers: ['ES1 Index', 'RTY Index', 'CO1 Comdty']
+  #  field: 'RK901'
+  #  start_date: '2024-01-01'
+  #trump2_iv_25dput_daily:
+  #  tickers: ['ES1 Index', 'RTY Index', 'CO1 Comdty']
+  #  field: 'RK903'
+  #  start_date: '2024-01-01'
   sgs_bbg_i107:
     tickers: ['I10703M Index', 'I10706M Index', 'I10701Y Index', 'I10702Y Index', 'I10703Y Index', 'I10704Y Index', 'I10705Y Index', 'I10706Y Index', 'I10707Y Index', 'I10708Y Index', 'I10709Y Index', 'I10710Y Index']
     field: 'PX_LAST'
@@ -136,17 +136,23 @@ get_bdh:
               'LSXC Index','.IDRF2 F Index','..MYRYM Index','.THBF3 F Index','.PHPF4 F index','FEDL01 Index','SORACA3M Index','MAOPRATE Index','IDBIRATE Index','IDBIRRPO Index','BTRR1DAY Index','PPCBON Index']
     field: 'PX_LAST'
     start_date: '2010-01-01'             
+  macroeconomic_review_chap1sec1:
+    tickers: ['MXWD Index','ES1 Index','BCOM Index','CO1 Comdty','HG1 Comdty','VIX Index',
+              'USOSFRF Curncy','USOSFR1 Curncy','USGG2YR Index','USGG5YR Index','USGG10YR Index','USGG30YR Index','GDBR10 Index','GJGB10Y Index','GCNY10YR Index',
+              'DXY Index','EURUSD Curncy','USDJPY Cunrcy']
+    field: 'PX_LAST'
+    start_date: '2010-01-01'     
 
 
-get_bdh_bars:
-  sneer_intraday_monitor_60:
-    tickers: ['USDSGD Curncy', 'SDOI1M Curncy', 'SGDI1M Curncy', 'SDDR1T Curncy', 'SDSOAA Curncy', 'USRG1T Curncy', 'USOSFRA Curncy']
-    start_time: '2024-12-01 00:00:00'
-    barInterval: 60
-  sneer_intraday_monitor_5:
-    tickers: ['USDSGD Curncy', 'SDOI1M Curncy', 'SGDI1M Curncy', 'SDDR1T Curncy', 'SDSOAA Curncy', 'USRG1T Curncy', 'USOSFRA Curncy']
-    start_time: '2025-01-01 00:00:00'
-    barInterval: 5
+#get_bdh_bars:
+  #sneer_intraday_monitor_60:
+  #  tickers: ['USDSGD Curncy', 'SDOI1M Curncy', 'SGDI1M Curncy', 'SDDR1T Curncy', 'SDSOAA Curncy', 'USRG1T Curncy', 'USOSFRA Curncy']
+  #  start_time: '2024-12-01 00:00:00'
+  #  barInterval: 60
+  #sneer_intraday_monitor_5:
+  #  tickers: ['USDSGD Curncy', 'SDOI1M Curncy', 'SGDI1M Curncy', 'SDDR1T Curncy', 'SDSOAA Curncy', 'USRG1T Curncy', 'USOSFRA Curncy']
+  #  start_time: '2025-01-01 00:00:00'
+  #  barInterval: 5
   
   #uslongend_ERrequest_20241024_intraday:
   #  tickers: ['USGG10YR Index', 'USGGBE10 Index', 'DXY Index', 'USDJPY Curncy', 'MOVE Index', 'CO1 Comdty', 'DJT Equity', 'SFRU4 Comdty', 'SFRZ4 Comdty', 'SFRH5 Comdty']
