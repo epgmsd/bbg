@@ -139,7 +139,7 @@ get_bdh:
   macroeconomic_review_chap1sec1:
     tickers: ['MXWD Index','ES1 Index','BCOM Index','CO1 Comdty','HG1 Comdty','VIX Index',
               'USOSFRF Curncy','USOSFR1 Curncy','USGG2YR Index','USGG5YR Index','USGG10YR Index','USGG30YR Index','GDBR10 Index','GJGB10 Index','GCNY10YR Index',
-              'DXY Index','EURUSD Curncy','USDJPY Curncy','SOFRRATE Index','GCNY2YR Index','EUSA2 BGN Curncy','GJGB2 Index']
+              'DXY Index','EURUSD Curncy','USDJPY Curncy','SOFRRATE Index','GCNY2YR Index','EUSA2 BGN Curncy','GJGB2 Index','CCSWO2 BGN Curncy']
     field: 'PX_LAST'
     start_date: '2000-01-01'     
 
