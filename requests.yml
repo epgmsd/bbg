@@ -142,7 +142,16 @@ get_bdh:
               'DXY Index','EURUSD Curncy','USDJPY Curncy','SOFRRATE Index','GCNY2YR Index','EUSA2 BGN Curncy','GJGB2 Index','CCSWO2 BGN Curncy','STI Index']
     field: 'PX_LAST'
     start_date: '2000-01-01'     
-
+  asean_fsi_tickers:
+    tickers: ['IDRUSD Curncy','MYRUSD Curncy','PHPUSD Curncy','THBUSD Curncy','SGDUSD Curncy','USDIDR Curncy','USDMYR Curncy','USDPHP Curncy','USDTHB Curncy','USDSGD Curncy','USDIDRV3M Curncy',
+              'USDMYRV3M Curncy','USDTHBV3M Curncy','USDPHPV3M Curncy','USDVNDV3M Curncy','IHOFX3M Curncy','MROI3M Curncy','TBOI3M Curncy','PPOI3M Curncy','VDOI3M Curncy','USSOC Curncy','JIIN3M Curncy',
+              'KLIB3M Curncy','BOTH3M Curncy','PHINBR3M Curncy','VNCD3MO Index','GTIDR10Y Govt','GTMYR10Y Govt','GTTHB10Y Govt','CTPHP10Y Govt','GGVB10YR VBMA Index','USGG10YR Index',
+              'INDON CDS USD SR 5Y D14 Corp','MALAYS CDS USD SR 5Y D14 Corp','THAI CDS USD SR 5Y D14 Corp','PHILIP CDS USD SR 5Y D14 Corp','VIETNM CDS USD SR 5Y D14 BEST Corp',
+              'IDGBFNBN Index','MATPEMTD Index','TBTVNET$ Index','PHDBMTDD Index','JASXNET$ Index','MATPENET Index','THIVNET$ Index','VUPHBNET Index','VNDXENET Index',
+              'JCI Index','FBMKLCI Index','SET Index','PCOMP Index','VNINDEX Index']
+    field: 'PX_LAST'
+    start_date: '2000-01-01'    
+              
 
 #get_bdh_bars:
   #sneer_intraday_monitor_60:
