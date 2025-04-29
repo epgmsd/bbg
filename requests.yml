@@ -155,7 +155,7 @@ get_bdh:
     tickers: ['JPYI12M Curncy','JPYI2Y Curncy','JPYI5Y Curncy','JPYI10Y Curncy','JYSO1 Curncy','JYSO2 Curncy','JYSO5 Curncy','JYSO10 Curncy','GJGB1 Index','GJGB2 Index','GJGB5 Index','GJGB10 Index',
               'USGG12M Index','USGG2YR Index','USGG5YR Index','USGG10YR Index',
               'CHFI12M Curncy','CHFI2Y Curncy','CHFI5Y Curncy','CHFI10Y Curncy','SFSNT1 Curncy','SFSNT2 Curncy','SFSNT5 Curncy','SFSNT10 Curncy','GSWISS01 Index','GSWISS02 Index','GSWISS05 Index','GSWISS10 Index',
-              'CNHI12M Curncy','CNHI2Y Curncy','CNHI5Y Curncy','CNHI10Y Curncy','CCSWNI1 Curncy','CCSWNI2 Curncy','CCSWNI5 Curncy','CCSWNI10 Curncy','GCNY1YR Index','GCNY2YR Index','GCNY5YR Index','GCNYR10 Index',
+              'CNHI12M Curncy','CNHI2Y Curncy','CNHI5Y Curncy','CNHI10Y Curncy','CCSWNI1 Curncy','CCSWNI2 Curncy','CCSWNI5 Curncy','CCSWNI10 Curncy','GCNY1YR Index','GCNY2YR Index','GCNY5YR Index','GCNY10YR Index',
               'AUDI12M Curncy','AUDI2Y Curncy','AUDI5Y Curncy','AUDI10Y Curncy','ADSWAP1 Curncy','ADSWAP2 Curncy','ADSWAP5 Curncy','ADSWAP10 Curncy','GACGB1 Index','GACGB2 Index','GACGB5 Index','GACGB10 Index',
               'SGDI12M Curncy','SGDI2Y Curncy','SGDI5Y Curncy','SGDI10Y Curncy','SDSOA1 Curncy','SDSOA2 Curncy','SDSOA5 Curncy','SDSOA10 Curncy','GTSGD1YR Corp','GTSGD2YR Corp','GTSGD5YR Corp','GTSGD10YR Corp',
               'SDSW1 Curncy', 'SDSW2 Curncy', 'SDSW5 Curncy', 'SDSW10 Curncy',
