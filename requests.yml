@@ -179,13 +179,13 @@ get_bdh:
               'SGD3M CMPN Curncy','SGD12M CMPN Curncy','SGD5Y CMPN Curncy','SGD10Y CMPN Curncy',
               'SDSWC CMPN Curncy','SDSW1 CMPN Curncy','SDSW5 CMPN Curncy','SDSW10 CMPN Curncy',
               'SDBSC CMPN Curncy','SDBS1 CMPN Curncy','SDBS5 CMPN Curncy','SDBS10 CMPN Curncy',
-              'SDSF6C CMPN Curncy','SDSF61 CMPN Curncy','SDSF65 CMPN Curncy','SDSF610 CMPN Curncy',
+              'SDSF63M CMPN Curncy','SDSF61Y CMPN Curncy','SDSF65Y CMPN Curncy','SDSF610Y CMPN Curncy',
               'SDSOA1 Curncy','SDSOA2 Curncy','SDSOA5 Curncy','SDSOA10 Curncy',
               'I10703M Index','I10701Y Index','I10705Y Index','I10710Y Index',
               'USDEUR Curncy',
               'EURI3M Curncy','EURI12M Curncy','EURI5Y Curncy','EURI10Y Curncy',
               'EUR3M Curncy','EUR12M Curncy','EUR5Y Curncy','EUR10Y Curncy',
-              'EUSAC Curncy','EUSA1 Curncy','EUSA5 Curncy','EUSA10 Curncy',
+              'EUR003M Index','EUSA1 Curncy','EUSA5 Curncy','EUSA10 Curncy',
               'I01603M Index','I01601Y Index','I01605Y Index','I01610Y Index',
               'USDGBP Curncy',
               'GBPI3M Curncy','GBPI12M Curncy','GBPI5Y Curncy','GBPI10Y Curncy',
@@ -195,7 +195,7 @@ get_bdh:
               'USDNZD Curncy',
               'NZDI3M Curncy','NZDI12M Curncy','NZDI5Y Curncy','NZDI10Y Curncy',
               'NZD3M Curncy','NZD12M Curncy','NZD5Y Curncy','NZD10Y Curncy',
-              'NDSWC Curncy','NDSW1 Curncy','NDSW5 Curncy','NDSW10 Curncy',
+              'I09403M Index','NDSW1 Curncy','NDSW5 Curncy','NDSW10 Curncy',
               'I04903M Index','I04901Y Index','I04905Y Index','I04910Y Index']
     field: 'PX_LAST'
     start_date: '2000-01-01'    
