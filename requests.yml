@@ -156,7 +156,7 @@ get_bdh:
               'JPYI3M Curncy','JPYI12M Curncy','JPYI5Y Curncy','JPYI10Y Curncy',
               'JYSOC Curncy','JYSO1 Curncy','JYSO5 Curncy','JYSO10 Curncy',
               'I01803M Index','I01801Y Index','I01805Y Index','I01810Y Index',
-              'USOSFRC Curncy','USOSFR1 Curncy','USOSFR5 Curncy','USOSFR10 Curncy'
+              'USOSFRC Curncy','USOSFR1 Curncy','USOSFR5 Curncy','USOSFR10 Curncy',
               'I02503M Index','I02501Y Index','I02505Y Index','I02510Y Index',
               'USDCHF Curncy',
               'CHFI3M Curncy','CHFI12M Curncy','CHFI5Y Curncy','CHFI10Y Curncy',
@@ -181,12 +181,12 @@ get_bdh:
               'I01603M Index','I01601Y Index','I01605Y Index','I01610Y Index',
               'USDGBP Curncy',
               'GBPI3M Curncy','GBPI12M Curncy','GBPI5Y Curncy','GBPI10Y Curncy',
-              'BPSWSC Curncy','BPSWS1 Curncy','BPSWS5 Curncy','BPSWS10 Curncy'
+              'BPSWSC Curncy','BPSWS1 Curncy','BPSWS5 Curncy','BPSWS10 Curncy',
               'I02203M Index','I02201Y Index','I02205Y Index','I02210Y Index',
               'USDNZD Curncy',
               'NZDI3M Curncy','NZDI12M Curncy','NZDI5Y Curncy','NZDI10Y Curncy',
-              'NDSWC Curncy','NDSW1 Curncy','NDSW5 Curncy','NDSW10 Curncy'
-              'I04903M Index','I04901Y Index','I04905Y Index','I04910Y Index']              ]
+              'NDSWC Curncy','NDSW1 Curncy','NDSW5 Curncy','NDSW10 Curncy',
+              'I04903M Index','I04901Y Index','I04905Y Index','I04910Y Index']
     field: 'PX_LAST'
     start_date: '2000-01-01'    
               
