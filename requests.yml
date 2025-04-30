@@ -197,7 +197,7 @@ get_bdh:
               'NZD3M Curncy','NZD12M Curncy','NZD5Y Curncy','NZD10Y Curncy',
               'I09403M Index','NDSW1 Curncy','NDSW5 Curncy','NDSW10 Curncy',
               'I04903M Index','I04901Y Index','I04905Y Index','I04910Y Index', 
-              'CADUSD Curncy',
+              'USDCAD Curncy',
               'CADI3M Curncy','CADI12M Curncy','CADI5Y Curncy','CADI10Y Curncy',
               'CAD3M Curncy','CAD12M Curncy','CAD5Y Curncy','CAD10Y Curncy',
               'CDOR03 Index','CDSO1 Curncy','CDSO5 Curncy','CDSO10 Curncy',
