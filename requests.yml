@@ -152,15 +152,41 @@ get_bdh:
     field: 'PX_LAST'
     start_date: '2000-01-01'    
   convenience_yield:
-    tickers: ['JPYI12M Curncy','JPYI2Y Curncy','JPYI5Y Curncy','JPYI10Y Curncy','JYSO1 Curncy','JYSO2 Curncy','JYSO5 Curncy','JYSO10 Curncy','GJGB1 Index','GJGB2 Index','GJGB5 Index','GJGB10 Index',
-              'USGG12M Index','USGG2YR Index','USGG5YR Index','USGG10YR Index',
-              'CHFI12M Curncy','CHFI2Y Curncy','CHFI5Y Curncy','CHFI10Y Curncy','SFSNT1 Curncy','SFSNT2 Curncy','SFSNT5 Curncy','SFSNT10 Curncy','GSWISS01 Index','GSWISS02 Index','GSWISS05 Index','GSWISS10 Index',
-              'CNHI12M Curncy','CNHI2Y Curncy','CNHI5Y Curncy','CNHI10Y Curncy','CCSWNI1 Curncy','CCSWNI2 Curncy','CCSWNI5 Curncy','CCSWNI10 Curncy','GCNY1YR Index','GCNY2YR Index','GCNY5YR Index','GCNY10YR Index',
-              'AUDI12M Curncy','AUDI2Y Curncy','AUDI5Y Curncy','AUDI10Y Curncy','ADSWAP1 Curncy','ADSWAP2 Curncy','ADSWAP5 Curncy','ADSWAP10 Curncy','GACGB1 Index','GACGB2 Index','GACGB5 Index','GACGB10 Index',
-              'SGDI12M Curncy','SGDI2Y Curncy','SGDI5Y Curncy','SGDI10Y Curncy','SDSOA1 Curncy','SDSOA2 Curncy','SDSOA5 Curncy','SDSOA10 Curncy','GTSGD1YR Corp','GTSGD2YR Corp','GTSGD5YR Corp','GTSGD10YR Corp',
-              'SDSW1 Curncy', 'SDSW2 Curncy', 'SDSW5 Curncy', 'SDSW10 Curncy',
-              'EURI12M Curncy','EURI2Y Curncy','EURI5Y Curncy','EURI10Y Curncy','EUSA1 Curncy','EUSA2 Curncy','EUSA5 Curncy','EUSA10 Curncy','GDBR1 Index','GDBR2 Index','GDBR5 Index','GDBR10 Index',
-              'GBPI12M Curncy','GBPI2Y Curncy','GBPI5Y Curncy','GBPI10Y Curncy','BPSWS1 Curncy','BPSWS2 Curncy','BPSWS5 Curncy','BPSWS10 Curncy','GUKG1 Index','GUKG2 Index','GUKG5 Index','GUKG10 Index']
+    tickers: ['USDJPY Curncy',
+              'JPYI3M Curncy','JPYI12M Curncy','JPYI5Y Curncy','JPYI10Y Curncy',
+              'JYSOC Curncy','JYSO1 Curncy','JYSO5 Curncy','JYSO10 Curncy',
+              'I01803M Index','I01801Y Index','I01805Y Index','I01810Y Index',
+              'USOSFRC Curncy','USOSFR1 Curncy','USOSFR5 Curncy','USOSFR10 Curncy'
+              'I02503M Index','I02501Y Index','I02505Y Index','I02510Y Index',
+              'USDCHF Curncy',
+              'CHFI3M Curncy','CHFI12M Curncy','CHFI5Y Curncy','CHFI10Y Curncy',
+              'SFSNTC Curncy','SFSNT1 Curncy','SFSNT5 Curncy','SFSNT10 Curncy',
+              'I08203M Index','I08201Y Index','I08205Y Index','I08210Y Index',
+              'USDCNH Curncy','USDCNY Curncy',
+              'CNHI3M Curncy','CNHI12M Curncy','CNHI5Y Curncy','CNHI10Y Curncy',
+              'CCSWNIC Curncy','CCSWNI1 Curncy','CCSWNI5 Curncy','CCSWNI10 Curncy',
+              'I22903M Index','I22901Y Index','I22905Y Index','I22910Y Index',
+              'USDAUD Curncy',
+              'AUDI3M Curncy','AUDI12M Curncy','AUDI5Y Curncy','AUDI10Y Curncy',
+              'ADSOC Curncy','ADSO1 Curncy','ADSO5 Curncy','ADSO10 Curncy',
+              'I00103M Index','I00101Y Index','I00105Y Index','I00110Y Index',
+              'USDSGD Curncy',
+              'SGDI3M Curncy','SGDI12M Curncy','SGDI5Y Curncy','SGDI10Y Curncy',
+              'SDSWC Curncy','SDSW1 Curncy','SDSW5 Curncy','SDSW10 Curncy',
+              'SDSOA1 Curncy','SDSOA2 Curncy','SDSOA5 Curncy','SDSOA10 Curncy',
+              'I10703M Index','I10701Y Index','I10705Y Index','I10710Y Index',
+              'USDEUR Curncy',
+              'EURI3M Curncy','EURI12M Curncy','EURI5Y Curncy','EURI10Y Curncy',
+              'EUSAC Curncy','EUSA1 Curncy','EUSA5 Curncy','EUSA10 Curncy',
+              'I01603M Index','I01601Y Index','I01605Y Index','I01610Y Index',
+              'USDGBP Curncy',
+              'GBPI3M Curncy','GBPI12M Curncy','GBPI5Y Curncy','GBPI10Y Curncy',
+              'BPSWSC Curncy','BPSWS1 Curncy','BPSWS5 Curncy','BPSWS10 Curncy'
+              'I02203M Index','I02201Y Index','I02205Y Index','I02210Y Index',
+              'USDNZD Curncy',
+              'NZDI3M Curncy','NZDI12M Curncy','NZDI5Y Curncy','NZDI10Y Curncy',
+              'NDSWC Curncy','NDSW1 Curncy','NDSW5 Curncy','NDSW10 Curncy'
+              'I04903M Index','I04901Y Index','I04905Y Index','I04910Y Index']              ]
     field: 'PX_LAST'
     start_date: '2000-01-01'    
               
