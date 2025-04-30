@@ -201,7 +201,7 @@ get_bdh:
               'CADI3M Curncy','CADI12M Curncy','CADI5Y Curncy','CADI10Y Curncy',
               'CAD3M Curncy','CAD12M Curncy','CAD5Y Curncy','CAD10Y Curncy',
               'CDOR03 Index','CDSO1 Curncy','CDSO5 Curncy','CDSO10 Curncy',
-              'I81303M Index','I81301Y Index','I81305Y Index','I81310Y Index']
+              'I00703M Index','I00701Y Index','I00705Y Index','I00710Y Index']
     field: 'PX_LAST'
     start_date: '2000-01-01'    
               
