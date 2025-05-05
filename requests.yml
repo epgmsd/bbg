@@ -204,28 +204,28 @@ get_bdh:
               'I00703M Index','I00701Y Index','I00705Y Index','I00710Y Index']
     field: 'PX_LAST'
     start_date: '2000-01-01'   
-fifx:
-  tickers: ['IPPPUSA Index','USOSFR5 Curncy','SPX Index', 
-            'USDJPY Curncy',
-            'JPYI3M Curncy','IPPPJPN Curncy','JYSO5 Curncy','NKY Index',
-            'USDKRW Curncy',
-            'KRWI3M Curncy','IPPPKOR Curncy','KWSWNI5 Curncy','KOSPI Index',
-            'USDCNH Curncy',
-            'CNHI3M Curncy','IPPPCHN Curncy','CCSWNI5 Curncy','SHCOMP Index',             
-            'USDTWD Curncy',
-            'NTNI3M Curncy','IPPPTWN Curncy','TDSWNI5 Curncy','TWSE Index',             
-            'USDSGD Curncy',
-            'SGDI3M Curncy','IPPPSGP Curncy','SDSOA5 Curncy','STI Index',    
-            'USDTHB Curncy',
-            'THBI3M Curncy','IPPPTHA Curncy','TBSWH5 Curncy','SET50 Index',   
-            'USDINR Curncy',
-            'INRI3M Curncy','IPPPIND Curncy','IRSWNI5 Curncy','NINFY Index',  
-            'USDAUD Curncy',
-            'AUDI3M Curncy','IPPPAUS Curncy','ADSWAP5 Curncy','ASX Index',  
-            'USDNZD Curncy',
-            'NZDI3M Curncy','IPPPNZL Curncy','NDSW5 Curncy','NZSE50FG Index']
-    field: 'PX_LAST'
-    start_date: '2000-01-01'   
+  fifx:
+    tickers: ['IPPPUSA Index','USOSFR5 Curncy','SPX Index', 
+              'USDJPY Curncy',
+              'JPYI3M Curncy','IPPPJPN Curncy','JYSO5 Curncy','NKY Index',
+              'USDKRW Curncy',
+              'KRWI3M Curncy','IPPPKOR Curncy','KWSWNI5 Curncy','KOSPI Index',
+              'USDCNH Curncy',
+              'CNHI3M Curncy','IPPPCHN Curncy','CCSWNI5 Curncy','SHCOMP Index',             
+              'USDTWD Curncy',
+              'NTNI3M Curncy','IPPPTWN Curncy','TDSWNI5 Curncy','TWSE Index',             
+              'USDSGD Curncy',
+              'SGDI3M Curncy','IPPPSGP Curncy','SDSOA5 Curncy','STI Index',    
+              'USDTHB Curncy',
+              'THBI3M Curncy','IPPPTHA Curncy','TBSWH5 Curncy','SET50 Index',   
+              'USDINR Curncy',
+              'INRI3M Curncy','IPPPIND Curncy','IRSWNI5 Curncy','NINFY Index',  
+              'USDAUD Curncy',
+              'AUDI3M Curncy','IPPPAUS Curncy','ADSWAP5 Curncy','ASX Index',  
+              'USDNZD Curncy',
+              'NZDI3M Curncy','IPPPNZL Curncy','NDSW5 Curncy','NZSE50FG Index']
+      field: 'PX_LAST'
+      start_date: '2000-01-01'   
             
 #get_bdh_bars:
   #sneer_intraday_monitor_60:
