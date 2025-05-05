@@ -224,8 +224,8 @@ get_bdh:
               'AUDI3M Curncy','IPPPAUS Curncy','ADSWAP5 Curncy','ASX Index',  
               'USDNZD Curncy',
               'NZDI3M Curncy','IPPPNZL Curncy','NDSW5 Curncy','NZSE50FG Index']
-      field: 'PX_LAST'
-      start_date: '2000-01-01'   
+    field: 'PX_LAST'
+    start_date: '2000-01-01'   
             
 #get_bdh_bars:
   #sneer_intraday_monitor_60:
