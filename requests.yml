@@ -207,25 +207,25 @@ get_bdh:
   fifx:
     tickers: ['IPPPUSA Index','USOSFRC Curncy','USOSFR5 Curncy','SPX Index', 
               'USDJPY Curncy',
-              'JPYI3M Curncy','IPPPJPN Curncy','JYSO5 Curncy','NKY Index',
+              'JPYI3M Curncy','IPPPJPN Index','JYSO5 Curncy','NKY Index',
               'USDKRW Curncy',
-              'KWNI3M Curncy','IPPPKOR Curncy','KWSWNI5 Curncy','KOSPI Index',
+              'KWNI3M Curncy','IPPPKOR Index','KWSWNI5 Curncy','KOSPI Index',
               'USDCNH Curncy',
-              'CNHI3M Curncy','IPPPCHN Curncy','CCSWNI5 Curncy','SHCOMP Index',             
+              'CNHI3M Curncy','IPPPCHN Index','CCSWNI5 Curncy','SHCOMP Index',             
               'USDTWD Curncy',
-              'NTNI3M Curncy','IPPPTWN Curncy','TDSWNI5 Curncy','TWSE Index',             
+              'NTNI3M Curncy','IPPPTWN Index','TDSWNI5 Curncy','TWSE Index',             
               'USDSGD Curncy',
-              'SGDI3M Curncy','IPPPSGP Curncy','SDSOA5 Curncy','STI Index',    
+              'SGDI3M Curncy','IPPPSGP Index','SDSOA5 Curncy','STI Index',    
               'USDHKD Curncy',
-              'HKDI3M Curncy','IPPPHKG Curncy','HKGG5Y Index','HSI Index',   
+              'HKDI3M Curncy','IPPPHKG Index','HKGG5Y Index','HSI Index',   
               'USDTHB Curncy',
-              'THBI3M Curncy','IPPPTHA Curncy','TBSWH5 Curncy','SET50 Index',   
+              'THBI3M Curncy','IPPPTHA Index','TBSWH5 Curncy','SET50 Index',   
               'USDINR Curncy',
-              'IRNI3M Curncy','IPPPIND Curncy','IRSWNI5 Curncy','NIFTY Index',  
+              'IRNI3M Curncy','IPPPIND Index','IRSWNI5 Curncy','NIFTY Index',  
               'USDAUD Curncy',
-              'AUDI3M Curncy','IPPPAUS Curncy','ADSWAP5 Curncy','ASX Index',  
+              'AUDI3M Curncy','IPPPAUS Index','ADSWAP5 Curncy','ASX Index',  
               'USDNZD Curncy',
-              'NZDI3M Curncy','IPPPNZL Curncy','NDSW5 Curncy','NZSE50FG Index']
+              'NZDI3M Curncy','IPPPNZL Index','NDSW5 Curncy','NZSE50FG Index']
     field: 'PX_LAST'
     start_date: '2000-01-01'   
             
