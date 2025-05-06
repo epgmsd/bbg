@@ -221,7 +221,7 @@ get_bdh:
               'USDTHB Curncy',
               'THBI3M Curncy','IPPPTHA Curncy','TBSWH5 Curncy','SET50 Index',   
               'USDINR Curncy',
-              'INRI3M Curncy','IPPPIND Curncy','IRSWNI5 Curncy','NIFTY Index',  
+              'IRNI3M Curncy','IPPPIND Curncy','IRSWNI5 Curncy','NIFTY Index',  
               'USDAUD Curncy',
               'AUDI3M Curncy','IPPPAUS Curncy','ADSWAP5 Curncy','ASX Index',  
               'USDNZD Curncy',
