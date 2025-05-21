@@ -153,12 +153,12 @@ get_bdh:
     start_date: '2000-01-01'    
   convenience_yield:
     tickers: ['USDJPY Curncy',
-              'JPYI3M Curncy','JPYI12M Curncy','JPYI5Y Curncy','JPYI10Y Curncy',
-              'JPY3M Curncy','JPY12M Curncy','JPY5Y Curncy','JPY10Y Curncy',
-              'JYSOC Curncy','JYSO1 Curncy','JYSO5 Curncy','JYSO10 Curncy',
-              'I01803M Index','I01801Y Index','I01805Y Index','I01810Y Index',
-              'USOSFRC Curncy','USOSFR1 Curncy','USOSFR5 Curncy','USOSFR10 Curncy',
-              'I02503M Index','I02501Y Index','I02505Y Index','I02510Y Index',
+              'JPYI3M Curncy','JPYI12M Curncy','JPYI5Y Curncy','JPYI10Y Curncy','JPYI30Y Curncy',
+              'JPY3M Curncy','JPY12M Curncy','JPY5Y Curncy','JPY10Y Curncy','JPY30Y Curncy',
+              'JYSOC Curncy','JYSO1 Curncy','JYSO5 Curncy','JYSO10 Curncy','JYSO30 Curncy',
+              'I01803M Index','I01801Y Index','I01805Y Index','I01810Y Index','I01830Y Index',
+              'USOSFRC Curncy','USOSFR1 Curncy','USOSFR5 Curncy','USOSFR10 Curncy','USOSFR30 Curncy',
+              'I02503M Index','I02501Y Index','I02505Y Index','I02510Y Index','I02530Y Index,'
               'USDCHF Curncy',
               'CHFI3M Curncy','CHFI12M Curncy','CHFI5Y Curncy','CHFI10Y Curncy',
               'CHF3M Curncy','CHF12M Curncy','CHF5Y Curncy','CHF10Y Curncy',
