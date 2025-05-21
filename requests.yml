@@ -158,7 +158,7 @@ get_bdh:
               'JYSOC Curncy','JYSO1 Curncy','JYSO5 Curncy','JYSO10 Curncy','JYSO30 Curncy',
               'I01803M Index','I01801Y Index','I01805Y Index','I01810Y Index','I01830Y Index',
               'USOSFRC Curncy','USOSFR1 Curncy','USOSFR5 Curncy','USOSFR10 Curncy','USOSFR30 Curncy',
-              'I02503M Index','I02501Y Index','I02505Y Index','I02510Y Index','I02530Y Index,'
+              'I02503M Index','I02501Y Index','I02505Y Index','I02510Y Index','I02530Y Index',
               'USDCHF Curncy',
               'CHFI3M Curncy','CHFI12M Curncy','CHFI5Y Curncy','CHFI10Y Curncy',
               'CHF3M Curncy','CHF12M Curncy','CHF5Y Curncy','CHF10Y Curncy',
