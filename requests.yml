@@ -205,27 +205,27 @@ get_bdh:
     field: 'PX_LAST'
     start_date: '2000-01-01'   
   fifx:
-    tickers: ['IPPPUSA Index','USOSFRC Curncy','USOSFR5 Curncy','SPX Index', 
+    tickers: ['IPPPUSA Index','USOSFRC Curncy','USOSFR5 Curncy','USOSFR3 Curncy','SPX Index', 
               'USDJPY Curncy',
-              'JPYI3M Curncy','IPPPJPN Index','JYSO5 Curncy','NKY Index',
+              'JPYI3M Curncy','IPPPJPN Index','JYSO5 Curncy','JYSO3 Curncy','NKY Index',
               'USDKRW Curncy',
-              'KWNI3M Curncy','IPPPKOR Index','KWSWNI5 Curncy','KOSPI Index',
+              'KWNI3M Curncy','IPPPKOR Index','KWSWNI5 Curncy','KWSWNI3 Curncy','KOSPI Index',
               'USDCNH Curncy',
-              'CNHI3M Curncy','IPPPCHN Index','CCSWNI5 Curncy','SHCOMP Index',             
+              'CNHI3M Curncy','IPPPCHN Index','CCSWNI5 Curncy','CCSWNI3 Curncy','SHCOMP Index',             
               'USDTWD Curncy',
-              'NTNI3M Curncy','IPPPTWN Index','TDSWNI5 Curncy','TWSE Index',             
+              'NTNI3M Curncy','IPPPTWN Index','TDSWNI5 Curncy','TDSWNI3 Curncy','TWSE Index',             
               'USDSGD Curncy',
-              'SGDI3M Curncy','IPPPSGP Index','SDSOA5 Curncy','STI Index',    
+              'SGDI3M Curncy','IPPPSGP Index','SDSOA5 Curncy','SDSOA3 Curncy','STI Index',    
               'USDHKD Curncy',
-              'HKDI3M Curncy','IPPPHKG Index','HKGG5Y Index','HSI Index',   
+              'HKDI3M Curncy','IPPPHKG Index','HKGG5Y Index','HKGG3Y Index','HSI Index',   
               'USDTHB Curncy',
-              'THBI3M Curncy','IPPPTHA Index','TBSWH5 Curncy','SET50 Index',   
+              'THBI3M Curncy','IPPPTHA Index','TBSWH5 Curncy','TBSWH3 Curncy','SET50 Index',   
               'USDINR Curncy',
-              'IRNI3M Curncy','IPPPIND Index','IRSWNI5 Curncy','NIFTY Index',  
+              'IRNI3M Curncy','IPPPIND Index','IRSWNI5 Curncy','IRSWNI3 Curncy','NIFTY Index',  
               'USDAUD Curncy',
-              'AUDI3M Curncy','IPPPAUS Index','ADSWAP5 Curncy','ASX Index',  
+              'AUDI3M Curncy','IPPPAUS Index','ADSWAP5 Curncy','ADSWAP3 Curncy','ASX Index',  
               'USDNZD Curncy',
-              'NZDI3M Curncy','IPPPNZL Index','NDSW5 Curncy','NZSE50FG Index']
+              'NZDI3M Curncy','IPPPNZL Index','NDSW5 Curncy','NDSW3 Curncy','NZSE50FG Index']
     field: 'PX_LAST'
     start_date: '2000-01-01'   
             
