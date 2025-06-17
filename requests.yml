@@ -217,7 +217,7 @@ get_bdh:
               'USDSGD Curncy',
               'SGDI3M Curncy','IPPPSGP Index','SDSOA5 Curncy','SDSOA3 Curncy','STI Index','SDSW5 Curncy','SDSW3 Curncy',
               'USDHKD Curncy',
-              'HKDI3M Curncy','IPPPHKG Index','HKGG5Y Index','HKGG3Y Index','HSI Index',   
+              'HKDI3M Curncy','IPPPHKG Index','HDSW5 Curncy','HDSW3 Curncy','HSI Index',   
               'USDTHB Curncy',
               'THBI3M Curncy','IPPPTHA Index','TBSWH5 Curncy','TBSWH3 Curncy','SET50 Index','TBSWNI5 Curncy','TBSWNI3 Curncy',
               'USDINR Curncy',
