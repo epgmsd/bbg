@@ -207,25 +207,25 @@ get_bdh:
   fifx:
     tickers: ['IPPPUSA Index','USOSFRC Curncy','USOSFR5 Curncy','USOSFR3 Curncy','SPX Index', 
               'USDJPY Curncy',
-              'JPYI3M Curncy','IPPPJPN Index','JYSO5 Curncy','JYSO3 Curncy','NKY Index','USDJPY25R3M Curncy',
+              'JPYI3M Curncy','IPPPJPN Index','JYSO5 Curncy','JYSO3 Curncy','NKY Index','USDJPY25R3M Curncy','USDJPYV3M Curncy',
               'USDKRW Curncy',
-              'KWNI3M Curncy','IPPPKOR Index','KWSWNI5 Curncy','KWSWNI3 Curncy','KOSPI Index','USDKRW25R3M Curncy',
+              'KWNI3M Curncy','IPPPKOR Index','KWSWNI5 Curncy','KWSWNI3 Curncy','KOSPI Index','USDKRW25R3M Curncy','USDKRWV3M Curncy',
               'USDCNH Curncy',
-              'CNHI3M Curncy','IPPPCHN Index','CCSWNI5 Curncy','CCSWNI3 Curncy','SHCOMP Index','USDCNH25R3M Curncy',             
+              'CNHI3M Curncy','IPPPCHN Index','CCSWNI5 Curncy','CCSWNI3 Curncy','SHCOMP Index','USDCNH25R3M Curncy','USDCNHV3M Curncy',         
               'USDTWD Curncy',
-              'NTNI3M Curncy','IPPPTWN Index','TDSWNI5 Curncy','TDSWNI3 Curncy','TWSE Index','USDTWD25R3M Curncy',        
+              'NTNI3M Curncy','IPPPTWN Index','TDSWNI5 Curncy','TDSWNI3 Curncy','TWSE Index','USDTWD25R3M Curncy','USDTWDV3M Curncy',        
               'USDSGD Curncy',
-              'SGDI3M Curncy','IPPPSGP Index','SDSOA5 Curncy','SDSOA3 Curncy','STI Index','SDSW5 Curncy','SDSW3 Curncy','USDSGD25R3M Curncy',
+              'SGDI3M Curncy','IPPPSGP Index','SDSOA5 Curncy','SDSOA3 Curncy','STI Index','SDSW5 Curncy','SDSW3 Curncy','USDSGD25R3M Curncy','USDSGDV3M Curncy',
               'USDHKD Curncy',
-              'HKDI3M Curncy','IPPPHKG Index','HDSW5 Curncy','HDSW3 Curncy','HSI Index','USDHKD25R3M Curncy',   
+              'HKDI3M Curncy','IPPPHKG Index','HDSW5 Curncy','HDSW3 Curncy','HSI Index','USDHKD25R3M Curncy','USDHKDV3M Curncy',   
               'USDTHB Curncy',
-              'THBI3M Curncy','IPPPTHA Index','TBSWH5 Curncy','TBSWH3 Curncy','SET50 Index','TBSWNI5 Curncy','TBSWNI3 Curncy','USDTHB25R3M Curncy',
+              'THBI3M Curncy','IPPPTHA Index','TBSWH5 Curncy','TBSWH3 Curncy','SET50 Index','TBSWNI5 Curncy','TBSWNI3 Curncy','USDTHB25R3M Curncy','USDTHBV3M Curncy',
               'USDINR Curncy',
-              'IRNI3M Curncy','IPPPIND Index','IRSWNI5 Curncy','IRSWNI3 Curncy','NIFTY Index','USDINR25R3M Curncy',  
+              'IRNI3M Curncy','IPPPIND Index','IRSWNI5 Curncy','IRSWNI3 Curncy','NIFTY Index','USDINR25R3M Curncy','USDINRV3M Curncy',  
               'USDAUD Curncy',
-              'AUDI3M Curncy','IPPPAUS Index','ADSWAP5 Curncy','ADSWAP3 Curncy','ASX Index','AUDUSD25R3M Curncy',  
+              'AUDI3M Curncy','IPPPAUS Index','ADSWAP5 Curncy','ADSWAP3 Curncy','ASX Index','AUDUSD25R3M Curncy','AUDUSDV3M Curncy',  
               'USDNZD Curncy',
-              'NZDI3M Curncy','IPPPNZL Index','NDSW5 Curncy','NDSW3 Curncy','NZSE50FG Index','NZDUSD25R3M Curncy',]
+              'NZDI3M Curncy','IPPPNZL Index','NDSW5 Curncy','NDSW3 Curncy','NZSE50FG Index','NZDUSD25R3M Curncy','NZDUSDV3M Curncy']
     field: 'PX_LAST'
     start_date: '2000-01-01'   
             
