@@ -228,6 +228,10 @@ get_bdh:
               'NZDI3M Curncy','IPPPNZL Index','NDSW5 Curncy','NDSW3 Curncy','NZSE50FG Index','NZDUSD25R3M Curncy','NZDUSDV3M Curncy']
     field: 'PX_LAST'
     start_date: '2000-01-01'   
+  japan_rates:
+    tickers: ['GTJPYII5Y Govt','GTJPYII10Y Govt','JPCPIXFF Index','JNCPIYOY Index','GJGB40 Index','GJGB30 Index','GJGB10 Index','GJGB5 Index','GJGB2 Index','GJGB1 Index','GJGB3M Index','TI0003M Index']
+    field: 'PX_LAST'
+    start_date: '2000-01-01'   
             
 #get_bdh_bars:
   #sneer_intraday_monitor_60:
