@@ -229,7 +229,7 @@ get_bdh:
     field: 'PX_LAST'
     start_date: '2000-01-01'   
   japan_rates:
-    tickers: ['GTJPYII5Y Govt','GTJPYII10Y Govt','JPCPIXFF Index','JNCPIYOY Index','GJGB40 Index','GJGB30 Index','GJGB10 Index','GJGB5 Index','GJGB2 Index','GJGB1 Index','GJGB3M Index','TI0003M Index']
+    tickers: ['GTJPYII5Y Govt','GTJPYII10Y Govt','JPCPIXFF Index','JNCPIYOY Index','GJGB40 Index','GJGB30 Index','GJGB10 Index','GJGB5 Index','GJGB2 Index','GJGB1 Index','GJGB3M Index','TI0003M Index','JPINGAA5 Index','JPINGAA1 Index','JPINGAA3 Index']
     field: 'PX_LAST'
     start_date: '2000-01-01'   
             
