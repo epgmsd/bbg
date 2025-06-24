@@ -221,7 +221,7 @@ get_bdh:
               'USDTHB Curncy',
               'THBI3M Curncy','IPPPTHA Index','TBSWH5 Curncy','TBSWH3 Curncy','SET50 Index','TBSWNI5 Curncy','TBSWNI3 Curncy','USDTHB25R3M Curncy','USDTHBV3M Curncy','ZWO1 Index',
               'USDINR Curncy',
-              'IRNI3M Curncy','IPPPIND Index','IRSWNI5 Curncy','IRSWNI3 Curncy','NIFTY Index','USDINR25R3M Curncy','USDINRV3M Curncy','IH1 Index',
+              'IRNI3M Curncy','IPPPIND Index','IRSWNI5 Curncy','IRSWNI3 Curncy','NIFTY Index','USDINR25R3M Curncy','USDINRV3M Curncy','IH1 Index','JGS1 Index',
               'USDAUD Curncy',
               'AUDI3M Curncy','IPPPAUS Index','ADSWAP5 Curncy','ADSWAP3 Curncy','ASX Index','AUDUSD25R3M Curncy','AUDUSDV3M Curncy','XP1 Index',  
               'USDNZD Curncy',
