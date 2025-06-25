@@ -205,7 +205,7 @@ get_bdh:
     field: 'PX_LAST'
     start_date: '2000-01-01'   
   fifx:
-    tickers: ['IPPPUSA Index','USOSFRC Curncy','USOSFR5 Curncy','USOSFR3 Curncy','SPX Index','ES1 Index',
+    tickers: ['IPPPUSA Index','USOSFRC Curncy','USOSFR5 Curncy','USOSFR3 Curncy','SPX Index','ES1 Index','DXY Index',
               'USDJPY Curncy',
               'JPYI3M Curncy','IPPPJPN Index','JYSO5 Curncy','JYSO3 Curncy','NKY Index','USDJPY25R3M Curncy','USDJPYV3M Curncy','NK1 Index','TP1 Index',
               'USDKRW Curncy',
