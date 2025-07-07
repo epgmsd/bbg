@@ -8,7 +8,7 @@ get_bdh:
               'USOSFRA Curncy','USOSFRC Curncy','US0001M Index','US0003M Index','SIBCSORA Index','FEDL01 Index','SOFRRATE Index','US00O/N Index',
               'EUBS1 Curncy','JYBS1 Curncy','XAUUSD Curncy','GDBR10 Index','SDSOA5 Curncy','SDSW5 Curncy','SDSOA10 Curncy','SDSW10 Curncy',
               'VIX Index','VIX3M Index','V2X Index','MOVE Index','DXY Curncy', 
-              'DBS SP Equity','OCBC SP Equity','UOB SP Equity']
+              'DBS SP Equity','OCBC SP Equity','UOB SP Equity','EUXOQQ1 BGN Curncy','JYBSS12M Curncy']
     field: 'PX_LAST'
     start_date: '1995-01-01'
   FSI_raw_data_pbratio:
