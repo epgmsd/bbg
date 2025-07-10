@@ -22,7 +22,7 @@ get_bdh:
   FCI_raw_data:
     tickers: ['SGD3M BGN Curncy','SDO3M BGN Curncy','USDSGDV3M BGN Curncy','MASB10Y BGN Index','MASB2Y BGN Index','USGG10YR BGN Index',
               'STI Index','BCOM Index','XAU BGN Curncy','COA Comdty','CLA Comdty','CL1 Comdty','DXY Curncy','VIX Index','SPX Index','FEDL01 Index',
-              'SORACA3M Index','SIMSM2 Index','SIMSM3A Index','USGG5YR Index','USGG3M Index','SNEER Index','USBMMY3M Index']
+              'SORACA3M Index','SIMSM2 Index','SIMSM3A Index','USGG5YR Index','USGG3M Index','SNEER Index','USBMMY3M Index','MASB3M Index']
     field: 'PX_LAST'
     start_date: '1990-01-01'
   FCI_implvol:
