@@ -263,7 +263,11 @@ get_bdh:
               'USDTHB Curncy',
               'THBI3M Curncy','IPPPTHA Index','TBSWH5 Curncy','TBSWH3 Curncy','SET50 Index','TBSWNI5 Curncy','TBSWNI3 Curncy','USDTHB25R3M Curncy','USDTHBV3M Curncy','ZWO1 Index',
               'USDINR Curncy',
-              'IRNI3M Curncy','IPPPIND Index','IRSWNI5 Curncy','IRSWNI3 Curncy','NIFTY Index','USDINR25R3M Curncy','USDINRV3M Curncy','IH1 Index','JGS1 Index']
+              'IRNI3M Curncy','IPPPIND Index','IRSWNI5 Curncy','IRSWNI3 Curncy','NIFTY Index','USDINR25R3M Curncy','USDINRV3M Curncy','IH1 Index','JGS1 Index', 
+              'MXWO0CD Index','MXWO0CS Index','MXWO0HC Index','MXWO0EN Index','MXWO0FN Index','MXWO0IT Index','MXWO0MT Index','MXWO0RL Index','MXWO0UT Index','MXWO0IN Index','MXWO0TC Index', 
+              'ER20 Index','GBTPGR10 Index','GDBR10 Index','GJGB10 Index','GUKG10 Index','HE00 Index','HL00 Index','IGOV Index','JPPLELM Index','LF98STAT Index','LUACSIUU Index','USGG10YR Index',
+              'BCOMAGTR Index','BCOMENTR Index','BCOMINTR Index','BCOMLITR Index','BCOMPRTR Index','EURUSD Curncy','USDJPY Curncy','GBPUSD Curncy','AUDUSD Curncy','USDKRW Curncy','USDHUF Curncy', 
+              'USDMXN Curncy','USDBRL Curncy','USDINR Curncy','USDZAR Curncy']
     field: 'PX_LAST'
     start_date: '2000-01-01'   
   japan_rates:
