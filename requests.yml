@@ -277,7 +277,7 @@ get_bdh:
               'LF98STAT Index','LUACSIUU Index','USGG10YR Index',
               'BCOMAGTR Index','BCOMENTR Index','BCOMINTR Index','BCOMLITR Index','BCOMPRTR Index','EURUSD Curncy','USDJPY Curncy','GBPUSD Curncy','AUDUSD Curncy','USDKRW Curncy','USDHUF Curncy', 
               'USDMXN Curncy','USDBRL Curncy','USDINR Curncy','USDZAR Curncy','MXMS Index','MSEUEMEA Index','MXLA Index','MXEU Index','MXNA Index','MXAP Index', 
-              'TY1 Comdty', 'G 1 Comdty', 'RX1 Comdty', 'JB1 Comdty', 'XM1 Comdty', 'CN1 Comdty', 'MXWO Index', 'LEGATRUU Index', 'SPGSCITR Index', 'NEIXCTAT Index', 'NEIXMTIQ Index']
+              'TY1 Comdty', 'G 1 Comdty', 'RX1 Comdty', 'JB1 Comdty', 'XM1 Comdty', 'CN1 Comdty', 'MXWO Index', 'LEGATRUU Index', 'SPGSCITR Index', 'NEIXCTAT Index']
     field: 'PX_LAST'
     start_date: '2000-01-01'   
   japan_rates:
