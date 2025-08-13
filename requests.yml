@@ -284,6 +284,11 @@ get_bdh:
     tickers: ['GTJPYII5Y Govt','GTJPYII10Y Govt','JPCPIXFF Index','JNCPIYOY Index','GJGB40 Index','GJGB30 Index','GJGB10 Index','GJGB5 Index','GJGB2 Index','GJGB1 Index','GJGB3M Index','TI0003M Index','JPINGAA5 Index','JPINGAA1 Index','JPINGAA3 Index']
     field: 'PX_LAST'
     start_date: '2000-01-01'   
+  lowrates:
+    tickers: ['SGD3M Curncy','HKD3M Curncy','KWN3M Curncy','THB3M Curncy','AUD3M Curncy','NZD3M Curncy','JPY3M Curncy','CNH3M Curncy','MRN3M Curncy','TWD3M Curncy','PPN3M Curncy','INR3M Curncy','IHN3M Curncy']
+    field: 'PX_LAST'
+    start_date: '2000-01-01'
+
             
 #get_bdh_bars:
   #sneer_intraday_monitor_60:
