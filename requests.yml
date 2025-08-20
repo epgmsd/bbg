@@ -286,7 +286,9 @@ get_bdh:
     start_date: '2000-01-01'   
   lowrates:
     tickers: ['SGD3M Curncy','HKD3M Curncy','KWN3M Curncy','THB3M Curncy','AUD3M Curncy','NZD3M Curncy','JPY3M Curncy','CNH3M Curncy','MRN3M Curncy','NTN3M Curncy','PPN3M Curncy','IRN3M Curncy','IHN3M Curncy', 
-              'SGD12M Curncy','HKD12M Curncy','KWN12M Curncy','THB12M Curncy','AUD12M Curncy','NZD12M Curncy','JPY12M Curncy','CNH12M Curncy','MRN12M Curncy','NTN12M Curncy','PPN12M Curncy','IRN12M Curncy','IHN12M Curncy']
+              'SGD12M Curncy','HKD12M Curncy','KWN12M Curncy','THB12M Curncy','AUD12M Curncy','NZD12M Curncy','JPY12M Curncy','CNH12M Curncy','MRN12M Curncy','NTN12M Curncy','PPN12M Curncy','IRN12M Curncy','IHN12M Curncy', 
+              'SGDPYOY Index', 'HKGDYOY Index', 'TWGDCONY Index', 'KOGDPYOY Index', 'JGDPNSAQ Index', 'AUNAGDPY Index', 'GDPGANZL Index', 'GDPGATHA Index', 
+              'SICPIYOY Index', 'HKCPIY Index', 'TWCPIYOY Index', 'KOCPIYOY Index', 'JNCPIYOY Index', 'AUCPIYOY Index', 'NZCPIYOY Index', 'THCPIYOY Index']
     field: 'PX_LAST'
     start_date: '2000-01-01'
 
