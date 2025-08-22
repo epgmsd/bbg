@@ -289,7 +289,7 @@ get_bdh:
               'SGD12M Curncy','HKD12M Curncy','KWN12M Curncy','THB12M Curncy','AUD12M Curncy','NZD12M Curncy','JPY12M Curncy','CNH12M Curncy','MRN12M Curncy','NTN12M Curncy','PPN12M Curncy','IRN12M Curncy','IHN12M Curncy', 
               'SGDPYOY Index', 'HKGDYOY Index', 'TWGDCONY Index', 'KOGDPYOY Index', 'JGDPNSAQ Index', 'AUNAGDPY Index', 'GDPGANZL Index', 'GDPGATHA Index', 
               'SICPIYOY Index', 'HKCPIY Index', 'TWCPIYOY Index', 'KOCPIYOY Index', 'JNCPIYOY Index', 'AUCPIYOY Index', 'NZCPIYOY Index', 'THCPIYOY Index', 
-              'ECCPEMUY Index', 'UKRPCJYR Index', 'SZCPIYOY Index', 'CACPIYOY Index']
+              'ECCPEMUY Index', 'UKRPCJYR Index', 'SZCPIYOY Index', 'CACPIYOY Index', 'CNCPIYOY Index']
     field: 'PX_LAST'
     start_date: '2000-01-01'
 
