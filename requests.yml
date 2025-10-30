@@ -292,6 +292,10 @@ get_bdh:
               'ECCPEMUY Index', 'UKRPCJYR Index', 'SZCPIYOY Index', 'CACPIYOY Index', 'CNCPIYOY Index', 'CPI YOY Index']
     field: 'PX_LAST'
     start_date: '2000-01-01'
+  equities:
+    tickers: ['SPX Index', 'STI Index', 'FBMKLCI Index', 'JCI Index', 'SET Index', 'PCOMP Index']
+    field: 'PX_LAST'
+    start_date: '2000-01-01'    
 
             
 #get_bdh_bars:
