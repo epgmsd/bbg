@@ -12,7 +12,7 @@ ECHO.
 pushd %~dp0
 
 ECHO Step 1: Force sync from main branch at remote
-git config --global credential.credentialStore dpapi
+REM git config --global credential.credentialStore dpapi
 git fetch origin main
 git reset --hard origin/main
 git merge origin/main
