@@ -304,6 +304,7 @@ get_bdh:
               'USSOF BGN Curncy','USSOG BGN Curncy','USSOH BGN Curncy','USSOI BGN Curncy','USSOJ BGN Curncy','USSOK BGN Curncy','USSO1 BGN Curncy','USSO1F BGN Curncy','USOSFR2 BGN Curncy','USOSFR3 BGN Curncy',
               'USOSFR4 BGN Curncy','USOSFR5 BGN Curncy','USOSFR6 BGN Curncy','USOSFR7 BGN Curncy','USOSFR8 BGN Curncy','USOSFR9 BGN Curncy','USOSFR10 BGN Curncy','USOSFR12 BGN Curncy','USOSFR15 BGN Curncy',
               'USOSFR20 BGN Curncy','USOSFR25 BGN Curncy','USOSFR30 BGN Curncy','USOSFR40 BGN Curncy','USOSFR50 BGN Curncy',
+              'USDSGD BGN Curncy',
               'SGDON BGN Curncy','SGDTN BGN Curncy','SGD BGN Curncy','SGDSN BGN Curncy','SGD1W BGN Curncy','SGD2W BGN Curncy','SGD3W BGN Curncy','SGD1M BGN Curncy','SGD2M BGN Curncy','SGD3M BGN Curncy',
               'SGD4M BGN Curncy','SGD5M BGN Curncy','SGD6M BGN Curncy','SGD9M BGN Curncy','SGD12M BGN Curncy','SGD15M BGN Curncy','SGD18M BGN Curncy','SGD2Y BGN Curncy','SGD3Y BGN Curncy',
               'SGD4Y BGN Curncy','SGD5Y BGN Curncy','SGD7Y BGN Curncy','SGD10Y BGN Curncy',
