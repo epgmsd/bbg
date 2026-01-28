@@ -296,7 +296,38 @@ get_bdh:
     tickers: ['SPX Index', 'STI Index', 'FBMKLCI Index', 'JCI Index', 'SET Index', 'PCOMP Index']
     field: 'PX_LAST'
     start_date: '2000-01-01'    
-
+  otcd_sim:
+    tickers: ['SIBCSORA Index','SDSOAA BGN Curncy','SDSOAB BGN Curncy','SDSOAC BGN Curncy','SDSOAF BGN Curncy','SDSOAI BGN Curncy','SDSOA1 BGN Curncy','SDSOA1F BGN Curncy',
+              'SDSOA2 BGN Curncy','SDSOA3 BGN Curncy','SDSOA4 BGN Curncy','SDSOA5 BGN Curncy','SDSOA7 BGN Curncy','SDSOA10 BGN Curncy','SDSOA12 BGN Curncy','SDSOA15 BGN Curncy','SDSOA20 BGN Curncy',
+              'SDSOA30 BGN Curncy',
+              'FEDL01 Index','USSO1Z BGN Curncy','USSO2Z BGN Curncy','USSO3Z BGN Curncy','USSOA BGN Curncy','USSOB BGN Curncy','USSOC BGN Curncy','USSOD BGN Curncy','USSOE BGN Curncy',
+              'USSOF BGN Curncy','USSOG BGN Curncy','USSOH BGN Curncy','USSOI BGN Curncy','USSOJ BGN Curncy','USSOK BGN Curncy','USSO1 BGN Curncy','USSO1F BGN Curncy','USOSFR2 BGN Curncy','USOSFR3 BGN Curncy',
+              'USOSFR4 BGN Curncy','USOSFR5 BGN Curncy','USOSFR6 BGN Curncy','USOSFR7 BGN Curncy','USOSFR8 BGN Curncy','USOSFR9 BGN Curncy','USOSFR10 BGN Curncy','USOSFR12 BGN Curncy','USOSFR15 BGN Curncy',
+              'USOSFR20 BGN Curncy','USOSFR25 BGN Curncy','USOSFR30 BGN Curncy','USOSFR40 BGN Curncy','USOSFR50 BGN Curncy',
+              'SGDON BGN Curncy','SGDTN BGN Curncy','SGD BGN Curncy','SGDSN BGN Curncy','SGD1W BGN Curncy','SGD2W BGN Curncy','SGD3W BGN Curncy','SGD1M BGN Curncy','SGD2M BGN Curncy','SGD3M BGN Curncy',
+              'SGD4M BGN Curncy','SGD5M BGN Curncy','SGD6M BGN Curncy','SGD9M BGN Curncy','SGD12M BGN Curncy','SGD15M BGN Curncy','SGD18M BGN Curncy','SGD2Y BGN Curncy','SGD3Y BGN Curncy',
+              'SGD4Y BGN Curncy','SGD5Y BGN Curncy','SGD7Y BGN Curncy','SGD10Y BGN Curncy',
+              'USDSGD10B10Y Curncy','USDSGD10B18M Curncy','USDSGD10B1M Curncy','USDSGD10B1W Curncy','USDSGD10B1Y Curncy','USDSGD10B2M Curncy','USDSGD10B2W Curncy','USDSGD10B2Y Curncy',
+              'USDSGD10B3M Curncy','USDSGD10B3W Curncy','USDSGD10B3Y Curncy','USDSGD10B4M Curncy','USDSGD10B4Y Curncy','USDSGD10B5Y Curncy','USDSGD10B6M Curncy',
+              'USDSGD10B7Y Curncy','USDSGD10B9M Curncy','USDSGD10BON Curncy',
+              'USDSG10R10Y Curncy','USDSGD10R18M Curncy','USDSGD10R1M Curncy','USDSGD10R1W Curncy','USDSGD10R1Y Curncy','USDSGD10R2M Curncy','USDSGD10R2W Curncy','USDSGD10R2Y Curncy','USDSGD10R3M Curncy',
+              'USDSGD10R3W Curncy','USDSGD10R3Y Curncy','USDSGD10R4M Curncy','USDSGD10R4Y Curncy','USDSGD10R5Y Curncy','USDSGD10R6M Curncy','USDSGD10R7Y Curncy','USDSGD10R9M Curncy','USDSGD10RON Curncy',
+              'USDSGD15B10Y Curncy','USDSGD15B18M Curncy','USDSGD15B1M Curncy','USDSGD15B1W Curncy','USDSGD15B1Y Curncy','USDSGD15B2M Curncy','USDSGD15B2W Curncy','USDSGD15B2Y Curncy','USDSGD15B3M Curncy',
+              'USDSGD15B3W Curncy','USDSGD15B3Y Curncy','USDSGD15B4M Curncy','USDSGD15B4Y Curncy','USDSGD15B5Y Curncy','USDSGD15B6M Curncy','USDSGD15B7Y Curncy','USDSGD15B9M Curncy','USDSGD15BON Curncy',
+              'USDSGD15R10Y Curncy','USDSGD15R18M Curncy','USDSGD15R1M Curncy','USDSGD15R1W Curncy','USDSGD15R1Y Curncy','USDSGD15R2M Curncy','USDSGD15R2W Curncy','USDSGD15R2Y Curncy',
+              'USDSGD15R3M Curncy','USDSGD15R3W Curncy','USDSGD15R3Y Curncy','USDSGD15R4M Curncy','USDSGD15R4Y Curncy','USDSGD15R5Y Curncy','USDSGD15R6M Curncy','USDSGD15R7Y Curncy',
+              'USDSGD15R9M Curncy','USDSGD15RON Curncy',
+              'USDSGD25B10Y Curncy','USDSGD25B18M Curncy','USDSGD25B1M Curncy','USDSGD25B1W Curncy','USDSGD25B1Y Curncy','USDSGD25B2M Curncy','USDSGD25B2W Curncy','USDSGD25B2Y Curncy','USDSGD25B3M Curncy','USDSGD25B3W Curncy','USDSGD25B3Y Curncy','USDSGD25B4M Curncy','USDSGD25B4Y Curncy','USDSGD25B5Y Curncy',
+              'USDSGD25B6M Curncy','USDSGD25B7Y Curncy','USDSGD25B9M Curncy','USDSGD25BON Curncy',
+              'USDSGD25R10Y Curncy','USDSGD25R18M Curncy','USDSGD25R1M Curncy','USDSGD25R1W Curncy','USDSGD25R1Y Curncy','USDSGD25R2M Curncy','USDSGD25R2W Curncy','USDSGD25R2Y Curncy','USDSGD25R3M Curncy',
+              'USDSGD25R3W Curncy','USDSGD25R3Y Curncy','USDSGD25R4M Curncy','USDSGD25R4Y Curncy','USDSGD25R5Y Curncy','USDSGD25R6M Curncy','USDSGD25R7Y Curncy','USDSGD25R9M Curncy','USDSGD25RON Curncy',
+              'USDSGD35B10Y Curncy','USDSGD35B18M Curncy','USDSGD35B1M Curncy','USDSGD35B1W Curncy','USDSGD35B1Y Curncy','USDSGD35B2M Curncy','USDSGD35B2W Curncy','USDSGD35B2Y Curncy','USDSGD35B3M Curncy',
+              'USDSGD35B3W Curncy','USDSGD35B3Y Curncy','USDSGD35B4M Curncy','USDSGD35B4Y Curncy','USDSGD35B5Y Curncy','USDSGD35B6M Curncy','USDSGD35B7Y Curncy','USDSGD35B9M Curncy','USDSGD35BON Curncy',
+              'USDSGD35R10Y Curncy','USDSGD35R18M Curncy','USDSGD35R1M Curncy','USDSGD35R1W Curncy','USDSGD35R1Y Curncy','USDSGD35R2M Curncy','USDSGD35R2W Curncy','USDSGD35R2Y Curncy',
+              'USDSGD35R3M Curncy','USDSGD35R3W Curncy','USDSGD35R3Y Curncy','USDSGD35R4M Curncy','USDSGD35R4Y Curncy','USDSGD35R5Y Curncy','USDSGD35R6M Curncy','USDSGD35R7Y Curncy',
+              'USDSGD35R9M Curncy','USDSGD35RON Curncy']
+    field: 'PX_LAST'
+    start_date: '2000-01-01'   
             
 #get_bdh_bars:
   #sneer_intraday_monitor_60:
