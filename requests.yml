@@ -300,7 +300,7 @@ get_bdh:
     tickers: ['SIBCSORA Index','SDSOAA BGN Curncy','SDSOAB BGN Curncy','SDSOAC BGN Curncy','SDSOAF BGN Curncy','SDSOAI BGN Curncy','SDSOA1 BGN Curncy','SDSOA1F BGN Curncy',
               'SDSOA2 BGN Curncy','SDSOA3 BGN Curncy','SDSOA4 BGN Curncy','SDSOA5 BGN Curncy','SDSOA7 BGN Curncy','SDSOA10 BGN Curncy','SDSOA12 BGN Curncy','SDSOA15 BGN Curncy','SDSOA20 BGN Curncy',
               'SDSOA30 BGN Curncy',
-              'FEDL01 Index','USSO1Z BGN Curncy','USSO2Z BGN Curncy','USSO3Z BGN Curncy','USSOA BGN Curncy','USSOB BGN Curncy','USSOC BGN Curncy','USSOD BGN Curncy','USSOE BGN Curncy',
+              'SOFRRATE Index','USSO1Z BGN Curncy','USSO2Z BGN Curncy','USSO3Z BGN Curncy','USSOA BGN Curncy','USSOB BGN Curncy','USSOC BGN Curncy','USSOD BGN Curncy','USSOE BGN Curncy',
               'USSOF BGN Curncy','USSOG BGN Curncy','USSOH BGN Curncy','USSOI BGN Curncy','USSOJ BGN Curncy','USSOK BGN Curncy','USSO1 BGN Curncy','USSO1F BGN Curncy','USOSFR2 BGN Curncy','USOSFR3 BGN Curncy',
               'USOSFR4 BGN Curncy','USOSFR5 BGN Curncy','USOSFR6 BGN Curncy','USOSFR7 BGN Curncy','USOSFR8 BGN Curncy','USOSFR9 BGN Curncy','USOSFR10 BGN Curncy','USOSFR12 BGN Curncy','USOSFR15 BGN Curncy',
               'USOSFR20 BGN Curncy','USOSFR25 BGN Curncy','USOSFR30 BGN Curncy','USOSFR40 BGN Curncy','USOSFR50 BGN Curncy',
