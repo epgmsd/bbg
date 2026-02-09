@@ -326,7 +326,10 @@ get_bdh:
               'USDSGD35B3W Curncy','USDSGD35B3Y Curncy','USDSGD35B4M Curncy','USDSGD35B4Y Curncy','USDSGD35B5Y Curncy','USDSGD35B6M Curncy','USDSGD35B7Y Curncy','USDSGD35B9M Curncy','USDSGD35BON Curncy',
               'USDSGD35R10Y Curncy','USDSGD35R18M Curncy','USDSGD35R1M Curncy','USDSGD35R1W Curncy','USDSGD35R1Y Curncy','USDSGD35R2M Curncy','USDSGD35R2W Curncy','USDSGD35R2Y Curncy',
               'USDSGD35R3M Curncy','USDSGD35R3W Curncy','USDSGD35R3Y Curncy','USDSGD35R4M Curncy','USDSGD35R4Y Curncy','USDSGD35R5Y Curncy','USDSGD35R6M Curncy','USDSGD35R7Y Curncy',
-              'USDSGD35R9M Curncy','USDSGD35RON Curncy']
+              'USDSGD35R9M Curncy','USDSGD35RON Curncy', 
+              'SDSF65Y Curncy', 'SDSF610Y Curncy', 'SDSF61Y Curncy', 'SDSF62Y Curncy', 'SDSF63Y Curncy', 'SDSF63M Curncy', 'SDSF67Y Curncy', 'SDSF64Y Curncy', 'SDSF620Y Curncy', 
+              'SDSF66M Curncy', 'SDSF630Y Curncy', 'SDSF69M Curncy', 'SDSF612Y Curncy', 'SDSF61M Curncy', 'SDSF618M Curncy', 'SDSF615Y Curncy', 'SDSF68Y Curncy', 'SDSF62M Curncy', 
+              'SDSF640Y Curncy', 'SDSF66Y Curncy', 'SDSF69Y Curncy', 'SDSF650Y Curncy']
     field: 'PX_LAST'
     start_date: '2000-01-01'   
             
