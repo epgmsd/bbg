@@ -33,5 +33,5 @@ ECHO.
 
 popd
 
-PAUSE
+REM PAUSE
 
